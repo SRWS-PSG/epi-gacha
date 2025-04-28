@@ -113,7 +113,7 @@
       "人工知能"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\アラン・チューリング2025.png",
     "highlights": [
       {
         "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
@@ -175,7 +175,7 @@
       "Box–Cox transform"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\デビッド・コックス2025.png",
     "highlights": [
       {
         "title": "The regression analysis of binary sequences",
@@ -228,7 +228,7 @@
       "Metrology"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ピエール＝シモン・ラプラス2025.png",
     "highlights": [
       {
         "title": "天体力学概論 (Mécanique Céleste)",
@@ -271,7 +271,7 @@
       "電磁気学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\カール・フリードリヒ・ガウス2025.png",
     "highlights": [
       {
         "title": "Disquisitiones Arithmeticae",
@@ -325,7 +325,7 @@
       "宗教学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\エミール・デュルケーム2025.png",
     "highlights": [
       {
         "title": "社会分業論",
@@ -818,7 +818,7 @@
       "Measure-theoretic Probability"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\イェジ・ネイマン2025.png",
     "highlights": [
       {
         "title": "ネイマン・ピアソンの補題",
@@ -900,7 +900,7 @@
       "Cholera"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\ジョン・スノー2025.png",
     "highlights": [
       {
         "title": "On the Mode of Communication of Cholera",
@@ -994,7 +994,7 @@
       "看護師"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\フローレンス・ナイチンゲール2025.png",
     "highlights": [
       {
         "title": "看護覚え書",
@@ -1045,7 +1045,7 @@
       "経済学"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\アイザック・ニュートン2025.png",
     "highlights": [
       {
         "title": "自然哲学の数学的諸原理 (Philosophiæ Naturalis Principia Mathematica)",
@@ -1152,7 +1152,7 @@
       "Health Policy"
     ],
     "rarity": "SR",
-    "avatar": null,
+    "avatar": "avatars\\ゴードン・ガイアット2025.png",
     "highlights": [
       {
         "title": "Evidence-based medicine",
@@ -1210,7 +1210,7 @@
       "Public Health"
     ],
     "rarity": "SR",
-    "avatar": null,
+    "avatar": "avatars\\高木兼寛2025.png",
     "highlights": [
       {
         "title": "Publication of nutritional theory of beriberi",
@@ -1287,7 +1287,7 @@
       "Public Health"
     ],
     "rarity": "SR",
-    "avatar": null,
+    "avatar": "avatars\\ジェームス・リンド2025.png",
     "highlights": [
       {
         "title": "Experiment on Scurvy aboard HMS Salisbury",
@@ -1377,7 +1377,7 @@
       "Information Theory"
     ],
     "rarity": "SSR",
-    "avatar": null,
+    "avatar": "avatars\\赤池2025.png",
     "highlights": [
       {
         "title": "A new look at the statistical model identification",
@@ -1891,7 +1891,7 @@
       "天体力学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ジョセフ＝ルイ・ラグランジュ2025.png",
     "highlights": [
       {
         "title": "Mécanique analytique",
@@ -1940,7 +1940,7 @@
       "Economics"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ダニエル・ベルヌーイ2025.png",
     "highlights": [
       {
         "title": "Exercitationes (Mathematical Exercises)",
@@ -1981,7 +1981,7 @@
       "天文学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\レオンハルト・オイラー2025.png",
     "highlights": [
       {
         "title": "Introductio in analysin infinitorum",
@@ -2025,7 +2025,7 @@
       "順位相関"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\チャールズ・スピアマン2025.png",
     "highlights": [
       {
         "title": "",
@@ -2093,7 +2093,7 @@
       "Psychology"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\フランシス・ゴルトン2025.png",
     "highlights": [
       {
         "title": "Hereditary Genius",
@@ -2146,7 +2146,7 @@
       "実験計画法"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ウィリアム・ゴセット2025.png",
     "highlights": [
       {
         "title": "The probable error of a mean",
@@ -2206,7 +2206,7 @@
       "哲学"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\ガリレオ・ガリレイ2025.png",
     "highlights": [
       {
         "title": "星界の報告 (Sidereus Nuncius)",
@@ -2264,7 +2264,7 @@
       "Projective Geometry"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\ブレーズ・パスカル2025.png",
     "highlights": [
       {
         "title": "Pascaline",
@@ -2367,7 +2367,7 @@
       "Analysis"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\アドリアン＝マリ・ルジャンドル2025.png",
     "highlights": [
       {
         "title": "Essai sur la Théorie des Nombres",
@@ -2410,7 +2410,7 @@
       "法律"
     ],
     "rarity": "SR",
-    "avatar": null,
+    "avatar": "avatars\\ピエール・ド・フェルマー2025.png",
     "highlights": [
       {
         "title": "フェルマーの原理",
@@ -2460,7 +2460,7 @@
       "核兵器開発"
     ],
     "rarity": "SSR",
-    "avatar": null,
+    "avatar": "avatars\\スタニスワフ・ウラム2025.png",
     "highlights": [
       {
         "title": "モンテカルロ法",

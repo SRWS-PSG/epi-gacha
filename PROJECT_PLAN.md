@@ -53,9 +53,13 @@ flowchart TD
 - [x] scholars.json スキーマ設計と初期データ
 - [x] README.md 作成
 
-### フェーズ2：画像生成システム（完了）
+### フェーズ2：画像生成システム（強化済み）
 
 - [x] OpenAI API利用の画像生成スクリプト作成
+- [x] Google Gemini API利用の参照画像ベース画像生成スクリプト実装
+- [x] 画像生成状態管理システム（missing/manual_added/generated）
+- [x] Wikipediaからの参照画像自動取得機能
+- [x] バッチ処理による一括画像生成の仕組み
 - [x] 手動実行用GitHub Actionsワークフロー設定
 - [x] 画像保存・管理の仕組み実装
 
@@ -100,28 +104,99 @@ flowchart TD
 3. 現代の公衆衛生学に影響を与えた人物
 4. 日本の著名な統計・疫学者
 
-## メンテナンスワークフロー
+## 画像生成システム
+
+### 自動画像生成フロー
+
+```mermaid
+flowchart TD
+    subgraph Input["入力"]
+        J[("scholars_enhanced.json<br>学者データ")]
+        RF[("reference_photos/<br>参照画像（オプション）")]
+    end
+    
+    subgraph Process["処理"]
+        B["バッチ処理スクリプト<br>gen_avatars_batch_gemini.py"]
+        Check["参照画像の確認"]
+        W["Wikipediaから<br>参照画像取得"]
+        G["Gemini APIで<br>イラスト生成"]
+        CSV["処理状態管理<br>missing_photos.csv"]
+    end
+    
+    subgraph Output["出力"]
+        A[("avatars/<br>生成画像")]
+        JU[("更新された<br>scholars_enhanced.json")]
+    end
+    
+    J --> B
+    RF --> Check
+    B --> Check
+    Check -- "手動参照画像あり" --> G
+    Check -- "参照画像なし" --> W
+    W -- "取得成功" --> G
+    W -- "取得失敗" --> CSV
+    G -- "生成成功" --> A
+    G -- "状態記録" --> CSV
+    A --> JU
+    
+    style J fill:#f9f,stroke:#333,stroke-width:2px
+    style RF fill:#bbf,stroke:#333,stroke-width:2px
+    style A fill:#bfb,stroke:#333,stroke-width:2px
+    style JU fill:#fbf,stroke:#333,stroke-width:2px
+    style CSV fill:#fbb,stroke:#333,stroke-width:2px
+```
+
+### 画像生成状態管理
+
+画像生成プロセスは以下の状態を管理します：
+
+- **missing**: 参照画像が見つからず、手動での追加が必要
+- **manual_added**: 手動で参照画像が追加済み
+- **generated**: アバター生成に成功
+
+これらの状態はmissing_photos.csvに記録され、バッチ処理時に参照されます。
+
+### アバター生成統計（2025年4月29日実行）
+
+- 総学者数: 57名
+- アバター生成成功: 24名
+- 画像取得失敗: 30名
+- 処理エラー: 2名
+- スキップ（既存画像）: 1名
+
+### メンテナンスワークフロー（更新版）
 
 ```mermaid
 sequenceDiagram
     participant M as メンテナー
-    participant J as scholars.json
-    participant S as 画像生成スクリプト
+    participant J as scholars_enhanced.json
+    participant C as missing_photos.csv
+    participant R as reference_photos/
+    participant S as バッチ処理スクリプト
     participant A as avatars/
     participant G as GitHub
     
     M->>J: 1. 新規学者データ追加
-    M->>+S: 2. 画像生成スクリプト実行
-    S->>A: 3. 画像ファイル生成・保存
+    Note over M,C: 自動処理ルート
+    M->>+S: 2. バッチ処理スクリプト実行
+    S->>R: 3a. 参照画像の確認
+    S->>A: 3b. アバター画像生成
+    S->>C: 3c. 処理状態記録
     S->>-J: 4. avatarフィールド更新
-    M->>G: 5. コミット & プッシュ
-    G-->>G: 6. GitHub Pages自動デプロイ
+    
+    Note over M,R: 手動処理ルート
+    M->>C: 5a. missing状態の学者を確認
+    M->>R: 5b. 手動で参照画像追加
+    M->>S: 5c. バッチ処理で再実行
+    
+    M->>G: 6. コミット & プッシュ
+    G-->>G: 7. GitHub Pages自動デプロイ
 ```
 
 代替フロー（手動画像追加）:
-1. 学者データをscholars.jsonに追加
+1. 学者データをscholars_enhanced.jsonに追加
 2. 画像を別途用意し、avatars/{id}.png として保存
-3. scholars.jsonのavatarフィールドを手動更新
+3. scholars_enhanced.jsonのavatarフィールドを手動更新
 4. コミット & プッシュ
 
 ## コスト見積もり
@@ -154,9 +229,22 @@ sequenceDiagram
 
 ## 次のアクション項目
 
-1. scholars.jsonへのデータ追加（サンプル以外の学者データを収集・追加）
-2. 画像生成の手動テスト実行（OpenAI APIを使用）
-3. GitHub Pagesでの公開設定
-4. ユーザーフィードバック収集
-5. 音声効果の検討（レア度に応じたサウンド効果）
-6. データセットの拡充（より多くの学者情報の追加）
+1. 画像生成システムの改善点
+   - Wikipediaの画像取得時にUser-Agent制限回避のヘッダー設定追加
+   - GIF形式の参照画像の処理対応
+   - 画像取得失敗率の低減施策実装
+
+2. 追加データとコンテンツ拡充
+   - 残りの画像がないスカラー（missing状態）への参照画像の手動追加
+   - 学者データの追加収集と登録
+   - タグ・カテゴリーの整備と統一
+
+3. ウェブサイトと機能強化
+   - GitHub Pagesでの公開設定
+   - フィルター機能の強化（専門分野、時代、国別など）
+   - ユーザーフィードバック収集と改善
+
+4. その他の拡張
+   - 音声効果の検討（レア度に応じたサウンド効果）
+   - 「お気に入り」保存機能（localStorage活用）
+   - PWA対応の検討（オフライン利用）
