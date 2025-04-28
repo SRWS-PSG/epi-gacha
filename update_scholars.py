@@ -26,8 +26,11 @@ def fetch_webpage_text(url):
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         
+        # レスポンスのエンコーディングを設定（文字化け対策）
+        response.encoding = response.apparent_encoding
+        
         # BeautifulSoupを使ってHTMLからテキストを抽出
-        soup = BeautifulSoup(response.content, 'html.parser')
+        soup = BeautifulSoup(response.text, 'html.parser')
         
         # スクリプトとスタイルタグを削除
         for script in soup(["script", "style"]):
