@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "rosenbaum2025",
+    "name": {
+      "en": "Paul R. Rosenbaum",
+      "ja": "ポール・ローゼンバウム"
+    },
+    "affiliation": "University of Pennsylvania",
+    "tags": [
+      "Causal Inference",
+      "Statistics"
+    ],
+    "rarity": "SSR",
+    "avatar": null,
+    "highlights": [
+      {
+        "title": "Design of Observational Studies",
+        "type": "book",
+        "year": 2010,
+        "doi": "10.1007/978-1-4419-1213-0"
+      }
+    ],
+    "contribution": {
+      "text": "観察研究における因果推論の方法論に多大な貢献をした。特に「傾向スコア」を用いたマッチング法の発展に寄与し、ランダム化比較試験が実施できない状況での因果効果推定手法を確立した。",
+      "source": "https://en.wikipedia.org/wiki/Paul_Rosenbaum"
+    },
+    "trivia": "高校時代はチェス部のキャプテンだった。",
+    "triviaSource": "https://www.upenn.edu/faculty-profiles/paul-rosenbaum",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Rosenbaum"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "カール・ピアソン2025",
+    "name": {
+      "en": "",
+      "ja": "カール・ピアソン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アラン・チューリング2025",
+    "name": {
+      "en": "",
+      "ja": "アラン・チューリング"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "デビッド・コックス2025",
+    "name": {
+      "en": "",
+      "ja": "デビッド・コックス"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ピエール＝シモン・ラプラス2025",
+    "name": {
+      "en": "",
+      "ja": "ピエール＝シモン・ラプラス"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%EF%BC%9D%E3%82%B7%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%97%E3%83%A9%E3%82%B9"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%EF%BC%9D%E3%82%B7%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%97%E3%83%A9%E3%82%B9"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "カール・フリードリヒ・ガウス2025",
+    "name": {
+      "en": "",
+      "ja": "カール・フリードリヒ・ガウス"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%82%AC%E3%82%A6%E3%82%B9"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%82%AC%E3%82%A6%E3%82%B9"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "エミール・デュルケーム2025",
+    "name": {
+      "en": "",
+      "ja": "エミール・デュルケーム"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9F%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%87%E3%83%A5%E3%83%AB%E3%82%B1%E3%83%BC%E3%83%A0"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9F%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%87%E3%83%A5%E3%83%AB%E3%82%B1%E3%83%BC%E3%83%A0"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ダグラス・アルトマン2025",
+    "name": {
+      "en": "",
+      "ja": "ダグラス・アルトマン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Doug_Altman"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Doug_Altman"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ピーター・アーミテージ2025",
+    "name": {
+      "en": "",
+      "ja": "ピーター・アーミテージ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Peter_Armitage"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Armitage"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "サンダー・グリーンランド2025",
+    "name": {
+      "en": "",
+      "ja": "サンダー・グリーンランド"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Sander_Greenland"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sander_Greenland"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・ハンター2025",
+    "name": {
+      "en": "",
+      "ja": "ジョン・ハンター"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC_(%E5%A4%96%E7%A7%91%E5%8C%BB)"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC_(%E5%A4%96%E7%A7%91%E5%8C%BB)"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ディビッド・サケット2025",
+    "name": {
+      "en": "",
+      "ja": "ディビッド・サケット"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/David_Sackett"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Sackett"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ドナルド・ベルウィック2025",
+    "name": {
+      "en": "",
+      "ja": "ドナルド・ベルウィック"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Donald_Berwick"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Donald_Berwick"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "田口玄一2025",
+    "name": {
+      "en": "",
+      "ja": "田口玄一"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%8F%A3%E7%8E%84%E4%B8%80"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%8F%A3%E7%8E%84%E4%B8%80"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ドナルド・ルビン2025",
+    "name": {
+      "en": "",
+      "ja": "ドナルド・ルビン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Donald_Rubin"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Donald_Rubin"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・ポール2025",
+    "name": {
+      "en": "",
+      "ja": "ジョン・ポール"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/John_R._Paul"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_R._Paul"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "イェレミア・ストラマー2025",
+    "name": {
+      "en": "",
+      "ja": "イェレミア・ストラマー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Jeremiah_Stamler"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeremiah_Stamler"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "イェジ・ネイマン2025",
+    "name": {
+      "en": "",
+      "ja": "イェジ・ネイマン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%A7%E3%82%B8%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%9E%E3%83%B3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%A7%E3%82%B8%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%9E%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "トーマス・ベイズ2025",
+    "name": {
+      "en": "",
+      "ja": "トーマス・ベイズ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%99%E3%82%A4%E3%82%BA"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%99%E3%82%A4%E3%82%BA"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・スノー2025",
+    "name": {
+      "en": "",
+      "ja": "ジョン・スノー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/John_Snow"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Snow"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "エゴン・ピアソン2025",
+    "name": {
+      "en": "",
+      "ja": "エゴン・ピアソン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B4%E3%83%B3%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B4%E3%83%B3%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "フローレンス・ナイチンゲール2025",
+    "name": {
+      "en": "",
+      "ja": "フローレンス・ナイチンゲール"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アイザック・ニュートン2025",
+    "name": {
+      "en": "",
+      "ja": "アイザック・ニュートン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アーチボルド・コクラン2025",
+    "name": {
+      "en": "",
+      "ja": "アーチボルド・コクラン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Archie_Cochrane"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Archie_Cochrane"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ゴードン・ガイアット2025",
+    "name": {
+      "en": "",
+      "ja": "ゴードン・ガイアット"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Gordon_Guyatt"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Guyatt"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "高木兼寛2025",
+    "name": {
+      "en": "",
+      "ja": "高木兼寛"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%85%BC%E5%AF%9B"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%85%BC%E5%AF%9B"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ケネス・ロスマン2025",
+    "name": {
+      "en": "",
+      "ja": "ケネス・ロスマン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジェームス・リンド2025",
+    "name": {
+      "en": "",
+      "ja": "ジェームス・リンド"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/James_Lind"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Lind"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・テューキー2025",
+    "name": {
+      "en": "",
+      "ja": "ジョン・テューキー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SSR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A5%E3%83%BC%E3%82%AD%E3%83%BC"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A5%E3%83%BC%E3%82%AD%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "赤池2025",
+    "name": {
+      "en": "",
+      "ja": "赤池 弘次"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SSR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ロナルド・フィッシャー2025",
+    "name": {
+      "en": "",
+      "ja": "ロナルド・フィッシャー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "マチアス・エッガー2025",
+    "name": {
+      "en": "",
+      "ja": "マチアス・エッガー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Matthias_Egger"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matthias_Egger"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジェームス・ロビンス2025",
+    "name": {
+      "en": "",
+      "ja": "ジェームス・ロビンス"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/James_Robins"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Robins"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "大隈重信2025",
+    "name": {
+      "en": "",
+      "ja": "大隈重信"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/index.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/index.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "杉亨二2025",
+    "name": {
+      "en": "",
+      "ja": "杉亨二"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin03.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin03.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "森鴎外2025",
+    "name": {
+      "en": "",
+      "ja": "森鴎外"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin04.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin04.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "原敬2025",
+    "name": {
+      "en": "",
+      "ja": "原敬"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin05.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin05.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アドルフ・ケトレー2025",
+    "name": {
+      "en": "",
+      "ja": "アドルフ・ケトレー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%82%B1%E3%83%88%E3%83%AC%E3%83%BC"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%82%B1%E3%83%88%E3%83%AC%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ウィリアム・ペティ2025",
+    "name": {
+      "en": "",
+      "ja": "ウィリアム・ペティ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%9A%E3%83%86%E3%82%A3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%9A%E3%83%86%E3%82%A3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・グラント2025",
+    "name": {
+      "en": "",
+      "ja": "ジョン・グラント"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/John_Graunt"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Graunt"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "エドモンド・ハレー2025",
+    "name": {
+      "en": "",
+      "ja": "エドモンド・ハレー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%BC"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジェロラモ・カルダノ2025",
+    "name": {
+      "en": "",
+      "ja": "ジェロラモ・カルダノ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%A9%E3%83%A2%E3%83%BB%E3%82%AB%E3%83%AB%E3%83%80%E3%83%BC%E3%83%8E"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%A9%E3%83%A2%E3%83%BB%E3%82%AB%E3%83%AB%E3%83%80%E3%83%BC%E3%83%8E"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョセフ＝ルイ・ラグランジュ2025",
+    "name": {
+      "en": "",
+      "ja": "ジョセフ＝ルイ・ラグランジュ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%82%BC%E3%83%95%EF%BC%9D%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%A9%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B8%E3%83%A5"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%82%BC%E3%83%95%EF%BC%9D%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%A9%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B8%E3%83%A5"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ダニエル・ベルヌーイ2025",
+    "name": {
+      "en": "",
+      "ja": "ダニエル・ベルヌーイ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%99%E3%83%AB%E3%83%8C%E3%83%BC%E3%82%A4"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%99%E3%83%AB%E3%83%8C%E3%83%BC%E3%82%A4"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "レオンハルト・オイラー2025",
+    "name": {
+      "en": "",
+      "ja": "レオンハルト・オイラー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%B3%E3%83%8F%E3%83%AB%E3%83%88%E3%83%BB%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%B3%E3%83%8F%E3%83%AB%E3%83%88%E3%83%BB%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "チャールズ・スピアマン2025",
+    "name": {
+      "en": "",
+      "ja": "チャールズ・スピアマン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%BB%E3%82%B9%E3%83%94%E3%82%A2%E3%83%9E%E3%83%B3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%BB%E3%82%B9%E3%83%94%E3%82%A2%E3%83%9E%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アブー・ユースフ・ヤアクーブ・イブン・イスハーク・アル＝キンディー2025",
+    "name": {
+      "en": "",
+      "ja": "アブー・ユースフ・ヤアクーブ・イブン・イスハーク・アル＝キンディー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://www.tandfonline.com/doi/abs/10.1198/tas.2011.10191"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://www.tandfonline.com/doi/abs/10.1198/tas.2011.10191"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "フランシス・ゴルトン2025",
+    "name": {
+      "en": "",
+      "ja": "フランシス・ゴルトン"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%82%B4%E3%83%AB%E3%83%88%E3%83%B3"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%82%B4%E3%83%AB%E3%83%88%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ウィリアム・ゴセット2025",
+    "name": {
+      "en": "",
+      "ja": "ウィリアム・ゴセット"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B4%E3%82%BB%E3%83%83%E3%83%88"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B4%E3%82%BB%E3%83%83%E3%83%88"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "福沢諭吉2025",
+    "name": {
+      "en": "",
+      "ja": "福沢諭吉"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin02.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin02.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ガリレオ・ガリレイ2025",
+    "name": {
+      "en": "",
+      "ja": "ガリレオ・ガリレイ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ブレーズ・パスカル2025",
+    "name": {
+      "en": "",
+      "ja": "ブレーズ・パスカル"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%91%E3%82%B9%E3%82%AB%E3%83%AB"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%91%E3%82%B9%E3%82%AB%E3%83%AB"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "フアン・カラムエル・イ・ロブコヴィッツ2025",
+    "name": {
+      "en": "",
+      "ja": "フアン・カラムエル・イ・ロブコヴィッツ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://en.wikipedia.org/wiki/Juan_Caramuel_y_Lobkowitz"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Juan_Caramuel_y_Lobkowitz"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アドリアン＝マリ・ルジャンドル2025",
+    "name": {
+      "en": "",
+      "ja": "アドリアン＝マリ・ルジャンドル"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%EF%BC%9D%E3%83%9E%E3%83%AA%E3%83%BB%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%EF%BC%9D%E3%83%9E%E3%83%AA%E3%83%BB%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ピエール・ド・フェルマー2025",
+    "name": {
+      "en": "",
+      "ja": "ピエール・ド・フェルマー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "スタニスワフ・ウラム2025",
+    "name": {
+      "en": "",
+      "ja": "スタニスワフ・ウラム"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "SSR",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%AF%E3%83%95%E3%83%BB%E3%82%A6%E3%83%A9%E3%83%A0"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%AF%E3%83%95%E3%83%BB%E3%82%A6%E3%83%A9%E3%83%A0"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ユリアン・ヒギンズ2025",
+    "name": {
+      "en": "",
+      "ja": "ユリアン・ヒギンズ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://scholar.google.co.jp/citations?user=EYQIr1sAAAAJ"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://scholar.google.co.jp/citations?user=EYQIr1sAAAAJ"
+    ],
+    "created_at": "2025-04-28"
+  }
+]
