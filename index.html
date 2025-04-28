@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>統計・公衆衛生学者ガチャ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>統計・公衆衛生学者ガチャ</h1>
+      <p class="subtitle">統計学・疫学・公衆衛生学の研究者をランダムに発見しよう！</p>
+    </header>
+    
+    <div class="gacha-controls">
+      <button id="pull-one" class="btn">ガチャ</button>
+    </div>
+    
+    <div class="filter-section">
+      <select id="filter-type">
+        <option value="all">すべて</option>
+        <option value="Statistics">統計学</option>
+        <option value="Epidemiology">疫学</option>
+        <option value="Causal Inference">因果推論</option>
+        <option value="Public Health">公衆衛生学</option>
+      </select>
+      <button id="apply-filter" class="btn btn-small">フィルター適用</button>
+    </div>
+    
+    <div id="gacha-result" class="result-area"></div>
+    
+    <footer>
+      <p>© 2025 Epi-Gacha Project</p>
+    </footer>
+  </div>
+  
+  <script src="gacha.js"></script>
+</body>
+</html>
