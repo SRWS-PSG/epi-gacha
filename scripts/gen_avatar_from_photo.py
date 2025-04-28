@@ -13,6 +13,7 @@ import json
 import os
 import time
 import base64
+import csv
 from pathlib import Path
 import io
 import requests
@@ -32,11 +33,18 @@ if not api_key:
         print("スクリプト内の'your_api_key_here'を実際のAPIキーに書き換えるか、")
         print("環境変数GOOGLE_API_KEYを設定してください。")
 
-genai.configure(api_key=api_key)
-client = genai.Client()
+client = genai.Client(api_key=api_key)
 
+# 出力ディレクトリの設定
 OUT_DIR = Path("avatars")
 OUT_DIR.mkdir(exist_ok=True)
+
+# 参照画像用ディレクトリの設定
+REF_DIR = Path("reference_photos")
+REF_DIR.mkdir(exist_ok=True)
+
+# 画像が見つからなかった学者の情報を記録するCSVファイル
+MISSING_PHOTOS_CSV = Path("missing_photos.csv")
 
 # イラスト生成用のプロンプトテンプレート
 PROMPT_TEMPLATE = (
@@ -196,9 +204,12 @@ def extract_image_from_webpage(url):
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Wikipediaのinfoboxから画像を探す
+        # Wikipediaの場合は特別な処理
         if "wikipedia" in url.lower():
-            infobox_imgs = soup.select('.infobox img, .biography .image img, .thumb img')
+            print("Wikipediaページを処理しています")
+            
+            # 方法1: infoboxの画像を探す（優先度高）
+            infobox_imgs = soup.select('.infobox img, .biography .image img')
             for img in infobox_imgs:
                 src = img.get('src')
                 if src:
@@ -208,8 +219,46 @@ def extract_image_from_webpage(url):
                     width = img.get('width')
                     height = img.get('height')
                     if width and height and int(width) > 100 and int(height) > 100:
-                        print(f"Found portrait image: {src}")
+                        print(f"Found portrait image in infobox: {src}")
                         return src
+            
+            # 方法2: 冒頭の画像を探す
+            thumb_imgs = soup.select('.thumb img, .mw-parser-output > div > a > img')
+            for img in thumb_imgs:
+                src = img.get('src')
+                if src:
+                    if not src.startswith('http'):
+                        src = 'https:' + src if src.startswith('//') else 'https://' + url.split('/')[2] + src
+                    width = img.get('width')
+                    height = img.get('height')
+                    if width and height and int(width) > 100 and int(height) > 100:
+                        print(f"Found image in article body: {src}")
+                        return src
+            
+            # 方法3: Wikipediaの画像ファイル名からCommons URLを作成
+            # 例: File:Paul_Rosenbaum.jpg -> https://commons.wikimedia.org/wiki/File:Paul_Rosenbaum.jpg
+            file_links = soup.select('a[href*="File:"], a[href*="ファイル:"]')
+            for link in file_links:
+                href = link.get('href', '')
+                if 'File:' in href or 'ファイル:' in href:
+                    # ファイル名を抽出
+                    filename = href.split('File:')[-1] if 'File:' in href else href.split('ファイル:')[-1]
+                    if '.' in filename and any(ext in filename.lower() for ext in ['.jpg', '.jpeg', '.png', '.gif']):
+                        commons_url = f"https://commons.wikimedia.org/wiki/File:{filename}"
+                        try:
+                            # Commonsページにアクセス
+                            commons_response = requests.get(commons_url, timeout=10)
+                            commons_soup = BeautifulSoup(commons_response.content, 'html.parser')
+                            # 画像URLを取得
+                            img = commons_soup.select_one('.fullImageLink img')
+                            if img and img.get('src'):
+                                img_src = img.get('src')
+                                if not img_src.startswith('http'):
+                                    img_src = 'https:' + img_src if img_src.startswith('//') else 'https://commons.wikimedia.org' + img_src
+                                print(f"Found image via Commons: {img_src}")
+                                return img_src
+                        except Exception as e:
+                            print(f"Commons access error: {e}")
         
         # 一般的なページからプロフィール画像のように見える画像を探す
         candidate_imgs = []
@@ -242,6 +291,86 @@ def extract_image_from_webpage(url):
     except Exception as e:
         print(f"Error extracting image from webpage: {e}")
         return None
+
+def check_reference_photo(scholar_id):
+    """参照画像フォルダ内にIDに対応する画像があるか確認"""
+    # サポートされる画像形式
+    extensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp']
+    
+    for ext in extensions:
+        ref_path = REF_DIR / f"{scholar_id}{ext}"
+        if ref_path.exists():
+            print(f"Found manual reference photo: {ref_path}")
+            return ref_path
+    
+    print(f"No manual reference photo found for {scholar_id}")
+    return None
+
+def add_to_missing_photos_csv(scholar_id, name_en, name_ja, source_url=None, status="missing"):
+    """学者の情報をCSVに追記（画像がない場合だけでなく、処理状況も記録）
+    
+    status:
+    - "missing": 画像が見つからず、手動での追加が必要
+    - "manual_added": 手動で参照画像が追加済み
+    - "generated": アバター生成成功
+    """
+    # CSVファイルが存在するか確認
+    file_exists = MISSING_PHOTOS_CSV.exists()
+    
+    # ヘッダー情報の定義（新しい形式）
+    headers = ['scholar_id', 'name_en', 'name_ja', 'search_url', 'status']
+    
+    # 既存のエントリとヘッダー情報を読み込む
+    existing_data = {}
+    existing_headers = None
+    if file_exists:
+        try:
+            with open(MISSING_PHOTOS_CSV, 'r', encoding='utf-8', newline='') as f:
+                reader = csv.reader(f)
+                # ヘッダー行を読み込む
+                existing_headers = next(reader, headers)
+                
+                # ヘッダーが古い形式の場合（statusがない）
+                if len(existing_headers) < len(headers):
+                    existing_headers = headers
+                
+                # データ行を読み込む
+                for row in reader:
+                    if row and len(row) > 0:
+                        # 古い形式のデータ行の場合、statusカラムを追加
+                        if len(row) < len(headers):
+                            row.append("missing")
+                        
+                        # 辞書に格納（IDをキーとして）
+                        existing_data[row[0]] = row
+        except Exception as e:
+            print(f"Warning: Error reading existing CSV: {e}")
+    
+    # データを準備
+    new_row = [scholar_id, name_en, name_ja, source_url or '', status]
+    
+    # CSVを更新（既存エントリの更新または新規追加）
+    try:
+        mode = 'w'  # 書き換えモード
+        with open(MISSING_PHOTOS_CSV, mode, encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            
+            # ヘッダー行を書き込む
+            writer.writerow(existing_headers if existing_headers else headers)
+            
+            # 既存データをアップデート
+            if scholar_id in existing_data:
+                existing_data[scholar_id] = new_row
+                print(f"Updated {name_en} ({scholar_id}) in {MISSING_PHOTOS_CSV.name} with status: {status}")
+            else:
+                existing_data[scholar_id] = new_row
+                print(f"Added {name_en} ({scholar_id}) to {MISSING_PHOTOS_CSV.name} with status: {status}")
+            
+            # 全データを書き込む
+            for row in existing_data.values():
+                writer.writerow(row)
+    except Exception as e:
+        print(f"Error updating {MISSING_PHOTOS_CSV.name}: {e}")
 
 def generate_avatar_from_reference_image(name_en, reference_image_path):
     """参照画像をもとにアバター画像を生成"""
@@ -276,87 +405,30 @@ def generate_avatar_from_reference_image(name_en, reference_image_path):
             )
         except Exception as e:
             print(f"API呼び出しエラー: {e}")
+            print(f"詳細: {str(e)}")
             raise
         
         # レスポンスから画像データを抽出
         image_data = None
-        for part in response.candidates[0].content.parts:
-            if part.inline_data is not None:
-                image_data = part.inline_data.data
-                break
-        
-        if not image_data:
-            raise Exception("No image data found in response")
+        try:
+            for part in response.candidates[0].content.parts:
+                if part.inline_data is not None and part.inline_data.mime_type.startswith('image/'):
+                    image_data = part.inline_data.data
+                    print(f"画像データを取得しました: {part.inline_data.mime_type}")
+                    break
+            
+            if not image_data:
+                raise Exception("No image data found in response")
+        except Exception as e:
+            print(f"画像データ抽出エラー: {e}")
+            print(f"レスポンス構造: {response}")
+            raise
             
         print("Generated avatar successfully")
         return image_data
     
     except Exception as e:
         print(f"Error generating avatar with Gemini: {e}")
-        return None
-
-def generate_default_image(name_en, description=None):
-    """デフォルトのイラストを生成する（説明またはデフォルト設定から）"""
-    try:
-        if description:
-            prompt_text = f"""
-            Create a flat pastel portrait of {name_en} based on this description: 
-            {description}
-            """
-        else:
-            prompt_text = f"""
-            Create a flat pastel portrait of {name_en} as an academic or scholar.
-            Imagine a professional looking person with thoughtful expression.
-            """
-            
-        prompt = f"""
-        {prompt_text}
-        
-        Style guidelines:
-        - Facing forward
-        - 4-colour palette
-        - Thick outline
-        - Solid background
-        - Simple, stylized cartoon illustration
-        - No text or watermarks
-        """
-        
-        print(f"Generating default image with Gemini")
-        
-        # ダミー画像を生成（白い背景に基本的な顔の形）
-        dummy_img = Image.new('RGB', (512, 512), color=(255, 255, 255))
-        dummy_path = OUT_DIR / "dummy_reference.jpg"
-        dummy_img.save(dummy_path)
-        
-        # Geminiモデルを使用して画像生成
-        model = "gemini-2.0-flash-exp-image-generation"
-        try:
-            response = client.models.generate_content(
-                model=model,
-                contents=[prompt, Image.open(dummy_path)],
-                config=types.GenerateContentConfig(
-                    response_modalities=['TEXT', 'IMAGE']
-                )
-            )
-        except Exception as e:
-            print(f"API呼び出しエラー: {e}")
-            raise
-        
-        # レスポンスから画像データを抽出
-        image_data = None
-        for part in response.candidates[0].content.parts:
-            if part.inline_data is not None:
-                image_data = part.inline_data.data
-                break
-        
-        if not image_data:
-            raise Exception("No image data found in response")
-            
-        print("Generated default avatar successfully")
-        return image_data
-        
-    except Exception as e:
-        print(f"Error generating default image: {e}")
         return None
 
 def debug_generate_from_photo(scholar_id):
@@ -367,62 +439,95 @@ def debug_generate_from_photo(scholar_id):
         print(f"Scholar with ID {scholar_id} not found")
         return
     
-    print(f"Processing scholar: {scholar['name']['en']} ({scholar_id})")
+    name_en = scholar['name']['en']
+    name_ja = scholar['name'].get('ja', '')
     
-    # 2. JSONデータから説明文を生成
-    json_description = get_scholar_description(scholar)
-    print(f"Generated description from JSON data: {json_description}")
+    print(f"Processing scholar: {name_en} ({scholar_id})")
     
-    # 3. sourcesからURLを取得し顔写真を抽出
-    if not scholar.get('sources') or len(scholar['sources']) == 0:
-        print(f"No source URLs found for scholar {scholar_id}")
-        # JSONデータのみを使用
-        avatar_data = generate_default_image(scholar['name']['en'], json_description)
-        if not avatar_data:
-            print(f"Failed to generate image from JSON description. Aborting.")
-            return
-    else:
-        source_url = scholar['sources'][0]
-        print(f"Using source URL: {source_url}")
-        
-        # URLから顔写真を抽出
-        img_url = extract_image_from_webpage(source_url)
-        if not img_url:
-            print(f"Could not extract image from webpage. Using JSON description.")
-            avatar_data = generate_default_image(scholar['name']['en'], json_description)
-            if not avatar_data:
-                print(f"Failed to generate image from JSON description. Aborting.")
-                return
+    # 2. 参照画像を取得するソースをチェック
+    reference_image_path = None
+    source_url = None
+    
+    # 2.1 まず手動で追加された参照画像をチェック
+    manual_ref_path = check_reference_photo(scholar_id)
+    if manual_ref_path:
+        reference_image_path = manual_ref_path
+        print(f"Using manual reference photo from: {manual_ref_path}")
+        # 手動参照画像が見つかったことを記録
+        add_to_missing_photos_csv(scholar_id, name_en, name_ja, None, "manual_added")
+    
+    # 2.2 手動参照画像がなければウェブから取得を試みる
+    if not reference_image_path:
+        if not scholar.get('sources') or len(scholar['sources']) == 0:
+            print(f"No source URLs found for scholar {scholar_id}")
+            # missing_photos.csvに追記
+            add_to_missing_photos_csv(scholar_id, name_en, name_ja)
+            print(f"Please add a reference photo for {name_en} to {REF_DIR}")
+            return None
         else:
-            # 顔写真をダウンロードして一時ファイルに保存
-            temp_img_path = OUT_DIR / f"{scholar_id}_reference.jpg"
-            img = download_reference_image(img_url)
-            if not img:
-                print(f"Failed to download reference image. Using JSON description.")
-                avatar_data = generate_default_image(scholar['name']['en'], json_description)
-                if not avatar_data:
-                    print(f"Failed to generate image from JSON description. Aborting.")
-                    return
+            source_url = scholar['sources'][0]
+            print(f"Using source URL: {source_url}")
+            
+            # URLから顔写真を抽出
+            img_url = extract_image_from_webpage(source_url)
+            if not img_url:
+                print(f"Could not extract image from webpage.")
+                # missing_photos.csvに追記
+                add_to_missing_photos_csv(scholar_id, name_en, name_ja, source_url)
+                print(f"Please add a reference photo for {name_en} to {REF_DIR}")
+                return None
             else:
-                img.save(temp_img_path)
-                print(f"Saved reference image to {temp_img_path}")
-                
-                # 参照画像をもとにイラスト生成
-                avatar_data = generate_avatar_from_reference_image(scholar['name']['en'], temp_img_path)
-                if not avatar_data:
-                    print(f"Failed to generate avatar from reference. Using JSON description.")
-                    avatar_data = generate_default_image(scholar['name']['en'], json_description)
-                    if not avatar_data:
-                        print(f"Failed to generate image from JSON description. Aborting.")
-                        return
+                # 顔写真をダウンロードして一時ファイルに保存
+                temp_img_path = OUT_DIR / f"{scholar_id}_reference.jpg"
+                img = download_reference_image(img_url)
+                if not img:
+                    print(f"Failed to download reference image.")
+                    add_to_missing_photos_csv(scholar_id, name_en, name_ja, source_url)
+                    print(f"Please add a reference photo for {name_en} to {REF_DIR}")
+                    return None
+                else:
+                    # 保存
+                    img.save(temp_img_path)
+                    print(f"Saved reference image to {temp_img_path}")
+                    reference_image_path = temp_img_path
     
-    # 5. 結果を保存して表示
-    avatar_path = OUT_DIR / f"{scholar_id}.png"
-    with open(avatar_path, "wb") as f:
-        f.write(avatar_data)
+    # 参照画像が存在する場合、アバター生成を実行
+    if reference_image_path:
+        # 参照画像をもとにイラスト生成
+        avatar_data = generate_avatar_from_reference_image(name_en, reference_image_path)
+        if not avatar_data:
+            print(f"Failed to generate avatar from reference.")
+            return None
+        
+        # 結果を保存
+        avatar_path = OUT_DIR / f"{scholar_id}.png"
+        try:
+            # base64エンコードされているか確認
+            if isinstance(avatar_data, str) and avatar_data.startswith(('data:image', 'iVBOR', '/9j/')):
+                # base64エンコードされた文字列からプレフィックスを削除
+                if avatar_data.startswith('data:image'):
+                    # 例: 'data:image/png;base64,iVBORw0...' -> 'iVBORw0...'
+                    avatar_data = avatar_data.split(',', 1)[1]
+                print("Base64エンコードされたデータをデコードします")
+                avatar_data = base64.b64decode(avatar_data)
+            
+            # バイナリデータとして書き込み
+            with open(avatar_path, "wb") as f:
+                f.write(avatar_data)
+            print(f"画像を保存しました：{avatar_path}")
+        except Exception as e:
+            print(f"画像の保存中にエラーが発生しました: {e}")
+            print(f"データタイプ: {type(avatar_data)}")
+            if isinstance(avatar_data, str) and len(avatar_data) > 100:
+                print(f"データの先頭: {avatar_data[:100]}...")
+            raise
+        
+        print(f"Successfully generated and saved avatar to {avatar_path}")
+        # アバター生成成功を記録
+        add_to_missing_photos_csv(scholar_id, name_en, name_ja, source_url, "generated")
+        return avatar_path
     
-    print(f"Successfully generated and saved avatar to {avatar_path}")
-    return avatar_path
+    return None
 
 if __name__ == "__main__":
     # APIキーがない場合は入力を求める
@@ -431,8 +536,7 @@ if __name__ == "__main__":
         print("Google APIキーが設定されていません。")
         api_key = input("Google APIキーを入力してください: ").strip()
         os.environ["GOOGLE_API_KEY"] = api_key
-        genai.configure(api_key=api_key)
-        client = genai.Client()
+        client = genai.Client(api_key=api_key)
 
     # デバッグテスト - ポール・ローゼンバウムの画像を生成
     scholar_id = "rosenbaum2025"
@@ -457,4 +561,5 @@ if __name__ == "__main__":
             
             print(f"scholars_enhanced.jsonを更新しました")
     else:
-        print("\nDebug test failed. See errors above.")
+        print("\nDebug test failed or no reference photo was available.")
+        print("Check missing_photos.csv for a list of scholars without reference photos.")
