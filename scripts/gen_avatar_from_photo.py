@@ -405,7 +405,7 @@ def generate_avatar_from_reference_image(name_en, reference_image_path):
         image = Image.open(reference_image_path)
         
         # Geminiモデルを使用して画像生成
-        model = genai.GenerativeModel("gemini-pro-vision")
+        model = genai.GenerativeModel("gemini-1.5-flash")
         try:
             response = model.generate_content(
                 contents=[prompt, image]
