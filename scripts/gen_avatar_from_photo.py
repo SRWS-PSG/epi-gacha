@@ -194,7 +194,11 @@ def download_reference_image(url):
         response = requests.get(url, stream=True, timeout=10, headers=headers)
         response.raise_for_status()
         img = Image.open(io.BytesIO(response.content))
-        print(f"Reference image downloaded: {img.format} {img.size}")
+        
+        if img.format == 'GIF' or img.mode == 'P':
+            img = img.convert('RGB')
+            
+        print(f"Reference image downloaded: {img.format} {img.size} (mode: {img.mode})")
         return img
     except Exception as e:
         print(f"Error downloading reference image: {e}")
@@ -493,7 +497,8 @@ def debug_generate_from_photo(scholar_id):
                     print(f"Please add a reference photo for {name_en} to {REF_DIR}")
                     return None
                 else:
-                    # 保存
+                    if img.mode != 'RGB':
+                        img = img.convert('RGB')
                     img.save(temp_img_path)
                     print(f"Saved reference image to {temp_img_path}")
                     reference_image_path = temp_img_path
