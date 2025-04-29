@@ -33,6 +33,9 @@ if not api_key:
         print("スクリプト内の'your_api_key_here'を実際のAPIキーに書き換えるか、")
         print("環境変数GOOGLE_API_KEYを設定してください。")
 
+# Wikipediaリクエスト用のUser-Agentヘッダー
+USER_AGENT = 'Epi-Gacha/1.0 (https://github.com/SRWS-PSG/epi-gacha; youkiti@gmail.com) Python/3.x requests/2.x'
+
 client = genai.Client(api_key=api_key)
 
 # 出力ディレクトリの設定
@@ -71,7 +74,8 @@ def describe_person_from_url(url, name_en):
     """URLから人物の説明を生成する関数"""
     try:
         print(f"Accessing URL: {url}")
-        response = requests.get(url, timeout=10)
+        headers = {'User-Agent': USER_AGENT}
+        response = requests.get(url, timeout=10, headers=headers)
         response.raise_for_status()
         
         # HTMLからテキストを抽出
@@ -186,7 +190,8 @@ def get_scholar_description(scholar):
 def download_reference_image(url):
     """URLから画像をダウンロードする"""
     try:
-        response = requests.get(url, stream=True, timeout=10)
+        headers = {'User-Agent': USER_AGENT}
+        response = requests.get(url, stream=True, timeout=10, headers=headers)
         response.raise_for_status()
         img = Image.open(io.BytesIO(response.content))
         print(f"Reference image downloaded: {img.format} {img.size}")
@@ -199,7 +204,8 @@ def extract_image_from_webpage(url):
     """WebページからWikipediaの顔写真を抽出する"""
     try:
         print(f"Looking for images on: {url}")
-        response = requests.get(url, timeout=10)
+        headers = {'User-Agent': USER_AGENT}
+        response = requests.get(url, timeout=10, headers=headers)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -247,7 +253,8 @@ def extract_image_from_webpage(url):
                         commons_url = f"https://commons.wikimedia.org/wiki/File:{filename}"
                         try:
                             # Commonsページにアクセス
-                            commons_response = requests.get(commons_url, timeout=10)
+                            headers = {'User-Agent': USER_AGENT}
+                            commons_response = requests.get(commons_url, timeout=10, headers=headers)
                             commons_soup = BeautifulSoup(commons_response.content, 'html.parser')
                             # 画像URLを取得
                             img = commons_soup.select_one('.fullImageLink img')
