@@ -20,8 +20,8 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 from io import BytesIO
-import google.genai as genai
-from google.genai import types
+import google.generativeai as genai
+from google.generativeai import types
 
 # Google Gemini APIクライアントの初期化
 api_key = os.getenv("GOOGLE_API_KEY")
@@ -36,7 +36,7 @@ if not api_key:
 # Wikipediaリクエスト用のUser-Agentヘッダー
 USER_AGENT = 'Epi-Gacha/1.0 (https://github.com/SRWS-PSG/epi-gacha; youkiti@gmail.com) Python/3.x requests/2.x'
 
-client = genai.Client(api_key=api_key)
+genai.configure(api_key=api_key)
 
 # 出力ディレクトリの設定
 OUT_DIR = Path("avatars")
@@ -405,13 +405,12 @@ def generate_avatar_from_reference_image(name_en, reference_image_path):
         image = Image.open(reference_image_path)
         
         # Geminiモデルを使用して画像生成
-        model = "gemini-2.0-flash-exp-image-generation"
+        model = genai.GenerativeModel("gemini-2.0-flash-exp-image-generation")
         try:
-            response = client.models.generate_content(
-                model=model,
+            response = model.generate_content(
                 contents=[prompt, image],
-                config=types.GenerateContentConfig(
-                    response_modalities=['TEXT', 'IMAGE']
+                generation_config=types.GenerationConfig(
+                    response_mime_type='image/png'
                 )
             )
         except Exception as e:
@@ -548,7 +547,7 @@ if __name__ == "__main__":
         print("Google APIキーが設定されていません。")
         api_key = input("Google APIキーを入力してください: ").strip()
         os.environ["GOOGLE_API_KEY"] = api_key
-        client = genai.Client(api_key=api_key)
+        genai.configure(api_key=api_key)
 
     # デバッグテスト - ポール・ローゼンバウムの画像を生成
     scholar_id = "rosenbaum2025"

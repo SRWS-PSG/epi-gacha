@@ -32,7 +32,7 @@ from scripts.gen_avatar_from_photo import (
     get_scholar_by_id, debug_generate_from_photo, add_to_missing_photos_csv,
     MISSING_PHOTOS_CSV
 )
-import google.genai as genai
+import google.generativeai as genai
 
 # Google Gemini APIキーの設定
 api_key = os.getenv("GOOGLE_API_KEY")
@@ -45,7 +45,7 @@ if not api_key:
     os.environ["GOOGLE_API_KEY"] = api_key
 
 # Geminiクライアントの初期化
-client = genai.Client(api_key=api_key)
+genai.configure(api_key=api_key)
 
 # 出力ディレクトリの確認
 OUT_DIR = Path("avatars")
