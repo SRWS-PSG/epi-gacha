@@ -855,7 +855,7 @@
       "Philosophy"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\トーマス・ベイズ2025.png",
     "highlights": [
       {
         "title": "Divine Benevolence, or an Attempt to Prove That the Principal End of the Divine Providence and Government is the Happiness of His Creatures",
@@ -1417,7 +1417,7 @@
       "優生学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ロナルド・フィッシャー2025.png",
     "highlights": [
       {
         "title": "Statistical Methods for Research Workers",
@@ -1778,7 +1778,7 @@
       "保険数理学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\エドモンド・ハレー2025.png",
     "highlights": [
       {
         "title": "Catalogus Stellarum Australium (南天星表)",
