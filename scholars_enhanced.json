@@ -427,7 +427,7 @@
       "Statistics"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ピーター・アーミテージ2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -458,7 +458,7 @@
       "Public Health"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\サンダー・グリーンランド2025.png",
     "highlights": [
       {
         "title": "Modeling and variable selection in epidemiologic analysis",
@@ -518,7 +518,7 @@
       "コレクター"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ジョン・ハンター2025.png",
     "highlights": [
       {
         "title": "ヒト歯の博物学および歯疾患の報告",
@@ -552,7 +552,7 @@
       "Randomized Clinical Trials"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ディビッド・サケット2025.png",
     "highlights": [
       {
         "title": "Clinical Epidemiology: A Basic Science for Clinical Medicine",
@@ -609,7 +609,7 @@
       "Health Economics"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ドナルド・ベルウィック2025.png",
     "highlights": [
       {
         "title": "Curing Health Care",
@@ -651,7 +651,7 @@
       "品質工学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\田口玄一2025.png",
     "highlights": [
       {
         "title": "品質工学 (タグチメソッド)",
@@ -694,7 +694,7 @@
       "Quantitative Psychology"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ドナルド・ルビン2025.png",
     "highlights": [
       {
         "title": "Rubin causal model",
@@ -740,7 +740,7 @@
       "Preventive Medicine"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ジョン・ポール2025.png",
     "highlights": [
       {
         "title": "A History of Poliomyelitis",
@@ -784,7 +784,7 @@
       "Risk Factors"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\イェレミア・ストラマー2025.png",
     "highlights": [
       {
         "title": "Experimental Atherosclerosis",
@@ -948,7 +948,7 @@
       "品質管理"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\エゴン・ピアソン2025.png",
     "highlights": [
       {
         "title": "ネイマン・ピアソンの補題",
@@ -1090,7 +1090,7 @@
       "Tuberculosis"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\アーチボルド・コクラン2025.png",
     "highlights": [
       {
         "title": "Effectiveness and Efficiency: Random Reflections on Health Services",
@@ -1258,7 +1258,7 @@
       "Epidemiologic Research Methodology"
     ],
     "rarity": "SR",
-    "avatar": null,
+    "avatar": "avatars\\ケネス・ロスマン2025.png",
     "highlights": [],
     "contribution": {
       "text": "Pioneering methodological work in epidemiologic research, including research methodology, and contributions to understanding teratogenic effects of vitamin A, health effects of mobile phone use, and environmental causes of cancer.",
@@ -1336,7 +1336,7 @@
       "データ可視化"
     ],
     "rarity": "SSR",
-    "avatar": null,
+    "avatar": "avatars\\ジョン・テューキー2025.png",
     "highlights": [
       {
         "title": "FFTアルゴリズム",
@@ -1471,7 +1471,7 @@
       "Meta-analysis"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\マチアス・エッガー2025.png",
     "highlights": [
       {
         "title": "Bias in meta-analysis detected by a simple, graphical test",
@@ -1510,7 +1510,7 @@
       "Causal Inference"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ジェームス・ロビンス2025.png",
     "highlights": [
       {
         "title": "A new approach to causal inference in mortality studies with a sustained exposure period—application to control of the healthy worker survivor effect",
@@ -1556,7 +1556,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\大隈重信2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -1578,7 +1578,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\杉亨二2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -1600,7 +1600,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\森鴎外2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -1622,7 +1622,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\原敬2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -1650,7 +1650,7 @@
       "Social Physics"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\アドルフ・ケトレー2025.png",
     "highlights": [
       {
         "title": "Sur l'homme et le développement de ses facultés, ou Essai de physique sociale",
@@ -1690,7 +1690,7 @@
       "自然科学"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ウィリアム・ペティ2025.png",
     "highlights": [
       {
         "title": "A Treatise of Taxes and Contributions",
@@ -1743,7 +1743,7 @@
       "Public Health"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ジョン・グラント2025.png",
     "highlights": [
       {
         "title": "Natural and Political Observations Made Upon the Bills of Mortality",
@@ -1841,7 +1841,7 @@
       "発明"
     ],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ジェロラモ・カルダノ2025.png",
     "highlights": [
       {
         "title": "Artis magnae, sive de regulis algebraicis (Ars Magna)",
@@ -2063,7 +2063,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\アブー・ユースフ・ヤアクーブ・イブン・イスハーク・アル＝キンディー2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -2179,7 +2179,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\福沢諭吉2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
@@ -2314,7 +2314,7 @@
       "Aristotelianism"
     ],
     "rarity": "R",
-    "avatar": null,
+    "avatar": "avatars\\フアン・カラムエル・イ・ロブコヴィッツ2025.png",
     "highlights": [
       {
         "title": "Camuelis primus calamus",
@@ -2507,7 +2507,7 @@
     "affiliation": "",
     "tags": [],
     "rarity": "N",
-    "avatar": null,
+    "avatar": "avatars\\ユリアン・ヒギンズ2025.png",
     "highlights": [],
     "contribution": {
       "text": "",
