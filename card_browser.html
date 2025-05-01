@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epi-Gacha カードブラウザ（ファクトチェック用）</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .browser-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        
+        .navigation {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .card-info {
+            margin-top: 20px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        
+        .card-json {
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            font-size: 0.9rem;
+        }
+        
+        .edit-suggestion {
+            margin-top: 15px;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+        
+        textarea {
+            width: 100%;
+            min-height: 100px;
+            margin-top: 10px;
+            font-family: inherit;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        
+        .card-display {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .card-container {
+            max-width: 400px;
+        }
+        
+        .issues {
+            margin-top: 15px;
+            color: #d32f2f;
+        }
+        
+        .source-link {
+            display: block;
+            margin-top: 5px;
+            word-break: break-all;
+        }
+        
+        .stats {
+            margin-bottom: 15px;
+            padding: 8px;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="browser-container">
+        <h1>Epi-Gacha カードブラウザ（ファクトチェック用）</h1>
+        
+        <div class="stats">
+            <div id="progress-info">カード 0/0</div>
+            <div id="data-stats">空データ: 0 件 - 完全データ: 0 件</div>
+        </div>
+        
+        <div class="controls">
+            <div class="navigation">
+                <button id="prev-btn" disabled>前へ</button>
+                <button id="next-btn" disabled>次へ</button>
+                <select id="filter-select">
+                    <option value="all">全てのカード</option>
+                    <option value="empty">空データのみ</option>
+                    <option value="incomplete">不完全なデータ</option>
+                    <option value="complete">完全なデータ</option>
+                    <option value="updated">最近更新されたデータ</option>
+                </select>
+            </div>
+            <div>
+                <button id="save-btn" disabled>変更を保存</button>
+                <button id="reload-btn">データを再読み込み</button>
+            </div>
+        </div>
+        
+        <div class="card-display">
+            <div id="card-container" class="card-container"></div>
+        </div>
+        
+        <div class="card-info">
+            <h3>カードデータ</h3>
+            <div id="card-json" class="card-json"></div>
+            
+            <div class="issues" id="issues-container"></div>
+            
+            <div class="edit-suggestion">
+                <h3>修正提案</h3>
+                <div>
+                    <label for="contribution-edit">貢献情報：</label>
+                    <textarea id="contribution-edit"></textarea>
+                </div>
+                <div>
+                    <label for="trivia-edit">豆知識：</label>
+                    <textarea id="trivia-edit"></textarea>
+                </div>
+                <div>
+                    <button id="apply-edit-btn">修正を適用</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let scholars = [];
+            let filteredScholars = [];
+            let currentIndex = 0;
+            let jsonFile = 'scholars_enhanced_tavily.json'; // 更新されたJSON
+            let editedScholars = {}; // 編集されたデータを保持
+            
+            const cardContainer = document.getElementById('card-container');
+            const cardJson = document.getElementById('card-json');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const filterSelect = document.getElementById('filter-select');
+            const saveBtn = document.getElementById('save-btn');
+            const reloadBtn = document.getElementById('reload-btn');
+            const contributionEdit = document.getElementById('contribution-edit');
+            const triviaEdit = document.getElementById('trivia-edit');
+            const applyEditBtn = document.getElementById('apply-edit-btn');
+            const progressInfo = document.getElementById('progress-info');
+            const dataStats = document.getElementById('data-stats');
+            const issuesContainer = document.getElementById('issues-container');
+            
+            // スカラーデータをロード
+            async function loadScholars() {
+                try {
+                    const response = await fetch(jsonFile);
+                    scholars = await response.json();
+                    applyFilter();
+                    updateStats();
+                    
+                    if (filteredScholars.length > 0) {
+                        currentIndex = 0;
+                        showCurrentScholar();
+                    }
+                } catch (error) {
+                    console.error('データの読み込みに失敗しました:', error);
+                    alert('データの読み込みに失敗しました。詳細はコンソールを確認してください。');
+                }
+            }
+            
+            // 統計情報の更新
+            function updateStats() {
+                const emptyCount = scholars.filter(s => 
+                    !s.contribution?.text || !s.trivia
+                ).length;
+                
+                const completeCount = scholars.length - emptyCount;
+                
+                dataStats.textContent = `空データ: ${emptyCount} 件 - 完全データ: ${completeCount} 件`;
+            }
+            
+            // フィルターを適用
+            function applyFilter() {
+                const filterValue = filterSelect.value;
+                
+                switch (filterValue) {
+                    case 'empty':
+                        filteredScholars = scholars.filter(s => 
+                            !s.contribution?.text && !s.trivia
+                        );
+                        break;
+                    case 'incomplete':
+                        filteredScholars = scholars.filter(s => 
+                            !s.contribution?.text || !s.trivia
+                        );
+                        break;
+                    case 'complete':
+                        filteredScholars = scholars.filter(s => 
+                            s.contribution?.text && s.trivia
+                        );
+                        break;
+                    case 'updated':
+                        // 更新されたデータの定義（例: editedScholarsに含まれるデータ）
+                        filteredScholars = scholars.filter(s => 
+                            Object.keys(editedScholars).includes(s.id)
+                        );
+                        break;
+                    default:
+                        filteredScholars = [...scholars];
+                }
+                
+                updateNavButtons();
+                
+                if (filteredScholars.length > 0) {
+                    if (currentIndex >= filteredScholars.length) {
+                        currentIndex = filteredScholars.length - 1;
+                    }
+                    showCurrentScholar();
+                } else {
+                    cardContainer.innerHTML = '<p>該当するカードがありません</p>';
+                    cardJson.textContent = '';
+                    contributionEdit.value = '';
+                    triviaEdit.value = '';
+                }
+            }
+            
+            // ナビゲーションボタンの状態を更新
+            function updateNavButtons() {
+                prevBtn.disabled = filteredScholars.length === 0 || currentIndex === 0;
+                nextBtn.disabled = filteredScholars.length === 0 || currentIndex === filteredScholars.length - 1;
+                saveBtn.disabled = Object.keys(editedScholars).length === 0;
+                
+                if (filteredScholars.length > 0) {
+                    progressInfo.textContent = `カード ${currentIndex + 1}/${filteredScholars.length}`;
+                } else {
+                    progressInfo.textContent = 'カード 0/0';
+                }
+            }
+            
+            // 現在のスカラーを表示
+            function showCurrentScholar() {
+                if (filteredScholars.length === 0) return;
+                
+                const scholar = filteredScholars[currentIndex];
+                renderCard(scholar);
+                updateJsonDisplay(scholar);
+                updateEditFields(scholar);
+                checkIssues(scholar);
+                updateNavButtons();
+            }
+            
+            // 問題をチェック
+            function checkIssues(scholar) {
+                issuesContainer.innerHTML = '';
+                const issues = [];
+                
+                if (!scholar.contribution?.text) {
+                    issues.push('貢献情報が空です');
+                }
+                
+                if (!scholar.trivia) {
+                    issues.push('豆知識が空です');
+                }
+                
+                if (scholar.contribution?.text && scholar.contribution.text.length < 30) {
+                    issues.push('貢献情報が短すぎます');
+                }
+                
+                if (scholar.trivia && scholar.trivia.length < 20) {
+                    issues.push('豆知識が短すぎます');
+                }
+                
+                if (scholar.contribution?.source === 'https://example.com/scholar1, https://example.com/scholar2') {
+                    issues.push('貢献情報の出典がモックデータです');
+                }
+                
+                if (scholar.triviaSource === 'https://example.com/scholar2, https://example.com/scholar3') {
+                    issues.push('豆知識の出典がモックデータです');
+                }
+                
+                if (issues.length > 0) {
+                    const issuesList = document.createElement('ul');
+                    issues.forEach(issue => {
+                        const li = document.createElement('li');
+                        li.textContent = issue;
+                        issuesList.appendChild(li);
+                    });
+                    
+                    issuesContainer.innerHTML = '<h3>問題点</h3>';
+                    issuesContainer.appendChild(issuesList);
+                }
+            }
+            
+            // 編集フィールドを更新
+            function updateEditFields(scholar) {
+                contributionEdit.value = scholar.contribution?.text || '';
+                triviaEdit.value = scholar.trivia || '';
+            }
+            
+            // JSONディスプレイを更新
+            function updateJsonDisplay(scholar) {
+                cardJson.textContent = JSON.stringify(scholar, null, 2);
+            }
+            
+            // カードをレンダリング
+            function renderCard(scholar) {
+                const rarityClass = scholar.rarity?.toLowerCase() || 'n';
+                const avatar = scholar.avatar || 'https://via.placeholder.com/300?text=No+Image';
+                
+                const html = `
+                    <div class="card ${rarityClass}">
+                        <div class="card-header">
+                            <div class="rarity-badge">${scholar.rarity || 'N'}</div>
+                        </div>
+                        <div class="card-image">
+                            <img src="${avatar}" alt="${scholar.name?.ja || scholar.id}">
+                        </div>
+                        <div class="card-content">
+                            <h2 class="scholar-name">${scholar.name?.ja || scholar.id}</h2>
+                            <p class="scholar-name-en">${scholar.name?.en || ''}</p>
+                            <p class="scholar-affiliation">${scholar.affiliation || ''}</p>
+                            
+                            <div class="section contribution">
+                                <h3>貢献</h3>
+                                <p>${scholar.contribution?.text || '情報なし'}</p>
+                                ${scholar.contribution?.source ? 
+                                    `<a href="${scholar.contribution.source}" class="source-link" target="_blank">出典: ${scholar.contribution.source}</a>` : ''}
+                            </div>
+                            
+                            <div class="section trivia">
+                                <h3>豆知識</h3>
+                                <p>${scholar.trivia || '情報なし'}</p>
+                                ${scholar.triviaSource ? 
+                                    `<a href="${scholar.triviaSource}" class="source-link" target="_blank">出典: ${scholar.triviaSource}</a>` : ''}
+                            </div>
+                            
+                            <div class="tags">
+                                ${scholar.tags?.map(tag => `<span class="tag">${tag}</span>`).join('') || ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                cardContainer.innerHTML = html;
+            }
+            
+            // 修正を適用
+            function applyEdit() {
+                if (filteredScholars.length === 0) return;
+                
+                const scholar = filteredScholars[currentIndex];
+                const originalScholar = scholars.find(s => s.id === scholar.id);
+                
+                // 貢献情報の更新
+                if (!originalScholar.contribution) {
+                    originalScholar.contribution = {};
+                }
+                originalScholar.contribution.text = contributionEdit.value;
+                
+                // 豆知識の更新
+                originalScholar.trivia = triviaEdit.value;
+                
+                // 編集されたデータを記録
+                editedScholars[scholar.id] = true;
+                
+                // 表示の更新
+                Object.assign(scholar, originalScholar);
+                renderCard(scholar);
+                updateJsonDisplay(scholar);
+                checkIssues(scholar);
+                
+                // ボタンの状態を更新
+                saveBtn.disabled = false;
+            }
+            
+            // 変更を保存
+            async function saveChanges() {
+                // 通常、サーバーサイドのAPIを呼び出して保存するが、
+                // 今回はモックデータのためダウンロードとして実装
+                const editedData = scholars.map(scholar => {
+                    if (editedScholars[scholar.id]) {
+                        return scholar;
+                    }
+                    return scholar;
+                });
+                
+                const blob = new Blob([JSON.stringify(editedData, null, 2)], {type: 'application/json'});
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'scholars_enhanced_edited.json';
+                a.click();
+                
+                alert('編集されたデータがダウンロードされました。このファイルをscholars_enhanced.jsonに置き換えてください。');
+                
+                // 編集フラグをクリア
+                editedScholars = {};
+                saveBtn.disabled = true;
+            }
+            
+            // イベントリスナーの設定
+            prevBtn.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    showCurrentScholar();
+                }
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                if (currentIndex < filteredScholars.length - 1) {
+                    currentIndex++;
+                    showCurrentScholar();
+                }
+            });
+            
+            filterSelect.addEventListener('change', () => {
+                currentIndex = 0;
+                applyFilter();
+            });
+            
+            reloadBtn.addEventListener('click', loadScholars);
+            
+            applyEditBtn.addEventListener('click', applyEdit);
+            
+            saveBtn.addEventListener('click', saveChanges);
+            
+            // 初期ロード
+            loadScholars();
+        });
+    </script>
+</body>
+</html>

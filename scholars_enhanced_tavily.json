@@ -1,0 +1,2523 @@
+[
+  {
+    "id": "rosenbaum2025",
+    "name": {
+      "en": "Paul R. Rosenbaum",
+      "ja": "ポール・ローゼンバウム"
+    },
+    "affiliation": "Wharton School, University of Pennsylvania",
+    "tags": [
+      "Statistics",
+      "Observational Studies",
+      "Causal Inference"
+    ],
+    "rarity": "SSR",
+    "avatar": "avatars\\rosenbaum2025.png",
+    "highlights": [
+      {
+        "title": "Observational Studies",
+        "type": "Book",
+        "year": 1995
+      },
+      {
+        "title": "Design of Observational Studies",
+        "type": "Book",
+        "year": 2010
+      },
+      {
+        "title": "Observation and Experiment: An Introduction to Causal Inference",
+        "type": "Book",
+        "year": 2017
+      },
+      {
+        "title": "Replication and Evidence Factors in Observational Studies",
+        "type": "Book",
+        "year": 2021
+      },
+      {
+        "title": "Causal Inference",
+        "type": "Book",
+        "year": 2023
+      }
+    ],
+    "contribution": {
+      "text": "He has advanced methods for causal inference in observational studies, notably sensitivity analysis, optimal matching, design sensitivity, evidence factors, quasi-experimental devices, and the propensity score.",
+      "source": "https://en.wikipedia.org/wiki/Paul_Rosenbaum"
+    },
+    "trivia": "His R. A. Fisher Lecture is available on YouTube beginning at minute 32.",
+    "triviaSource": "https://www.upenn.edu/faculty-profiles/paul-rosenbaum",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Rosenbaum"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "カール・ピアソン2025",
+    "name": {
+      "en": "Karl Pearson",
+      "ja": "カール・ピアソン"
+    },
+    "affiliation": "ユニバーシティ・カレッジ・ロンドン",
+    "tags": [
+      "法律",
+      "ドイツ学",
+      "優生学",
+      "数学",
+      "統計学"
+    ],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [
+      {
+        "title": "線形回帰",
+        "type": "理論"
+      },
+      {
+        "title": "ピアソン分布",
+        "type": "確率分布"
+      },
+      {
+        "title": "ピアソンのカイ二乗検定",
+        "type": "統計的検定"
+      },
+      {
+        "title": "科学の文法 (The Grammar of Science)",
+        "type": "著書",
+        "year": 1892
+      }
+    ],
+    "contribution": {
+      "text": "19世紀末からの研究により現代的数理統計学の基礎を築いた",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    },
+    "trivia": "ヒストグラムという語を創案した",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アラン・チューリング2025",
+    "name": {
+      "en": "Alan Mathison Turing",
+      "ja": "アラン・マシスン・チューリング"
+    },
+    "affiliation": "ケンブリッジ大学（キングス・カレッジ）、政府通信本部（GCCS）、国立物理研究所（NPL）、マンチェスター大学",
+    "tags": [
+      "数学",
+      "暗号解読",
+      "計算機科学",
+      "数理生物学",
+      "哲学",
+      "人工知能"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\アラン・チューリング2025.png",
+    "highlights": [
+      {
+        "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+        "type": "論文",
+        "year": 1936
+      },
+      {
+        "title": "チューリングマシン",
+        "type": "概念",
+        "year": 1936
+      },
+      {
+        "title": "エニグマ暗号解読のためのbombe開発",
+        "type": "業績",
+        "year": 1940
+      },
+      {
+        "title": "Automatic Computing Engine (ACE)設計",
+        "type": "プロジェクト",
+        "year": 1946
+      },
+      {
+        "title": "Computing Machinery and Intelligence（チューリングテスト）",
+        "type": "論文",
+        "year": 1950
+      },
+      {
+        "title": "The Chemical Basis of Morphogenesis",
+        "type": "論文",
+        "year": 1952
+      }
+    ],
+    "contribution": {
+      "text": "計算可能性理論の確立とチューリングマシンの提案による計算モデルの形式化、停止性問題の決定不能性証明、第二次世界大戦中のエニグマ暗号解読へのbombe開発、初期電子計算機（ACE、Manchester Mark I）の設計への寄与、人工知能の基礎としてのチューリングテスト提唱、さらに反応拡散モデルによる形態形成理論（チューリング・パターン）の構築など、情報処理と数理生物学の両分野に革命的な業績を残した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0"
+    },
+    "trivia": "1948年ロンドンオリンピックのマラソン選考に参加し、2時間46分3秒のベストタイムで5位となった実績がある。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "デビッド・コックス2025",
+    "name": {
+      "en": "David Cox",
+      "ja": "デビッド・コックス"
+    },
+    "affiliation": "Nuffield College, University of Oxford",
+    "tags": [
+      "Statistics",
+      "Survival analysis",
+      "Logistic regression",
+      "Stochastic processes",
+      "Design of experiments",
+      "Cox proportional hazards model",
+      "Cox process",
+      "Box–Cox transform"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\デビッド・コックス2025.png",
+    "highlights": [
+      {
+        "title": "The regression analysis of binary sequences",
+        "type": "paper",
+        "year": 1958,
+        "doi": "10.1111/j.2517-6161.1958.tb00292.x"
+      },
+      {
+        "title": "An analysis of transformations",
+        "type": "paper",
+        "year": 1964,
+        "doi": "10.1111/j.2517-6161.1964.tb00553.x"
+      },
+      {
+        "title": "Regression Models and Life-Tables",
+        "type": "paper",
+        "year": 1972,
+        "doi": "10.1111/j.2517-6161.1972.tb00899.x"
+      },
+      {
+        "title": "Planning of experiments",
+        "type": "book",
+        "year": 1958
+      }
+    ],
+    "contribution": {
+      "text": "Introduced logistic regression, the proportional hazards model, Cox process, and Box–Cox transformation; made foundational contributions to survival analysis, stochastic processes and design of experiments.",
+      "source": "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
+    },
+    "trivia": "Collaborated with George Box (Box–Cox transformation); had a distant cousin, aeronautical engineer Harold Roxbee Cox.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ピエール＝シモン・ラプラス2025",
+    "name": {
+      "en": "Pierre-Simon Laplace",
+      "ja": "ピエール＝シモン・ラプラス"
+    },
+    "affiliation": "エコール・ミリテール",
+    "tags": [
+      "Mathematics",
+      "Physics",
+      "Astronomy",
+      "Celestial Mechanics",
+      "Probability",
+      "Metrology"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ピエール＝シモン・ラプラス2025.png",
+    "highlights": [
+      {
+        "title": "天体力学概論 (Mécanique Céleste)",
+        "type": "book",
+        "year": 1799
+      },
+      {
+        "title": "確率論の解析理論 (Théorie analytique des probabilités)",
+        "type": "book",
+        "year": 1812
+      }
+    ],
+    "contribution": {
+      "text": "古典力学や天体力学における微分方程式の体系化、ラプラス方程式・ラプラス作用素の導入、ラプラス変換の基盤構築、ベイズ的確率論の体系化、メートル原器定義への寄与など",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%EF%BC%9D%E3%82%B7%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%97%E3%83%A9%E3%82%B9"
+    },
+    "trivia": "ナポレオン統領政府で短期間ながら内務大臣を務めた経験がある",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%EF%BC%9D%E3%82%B7%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%97%E3%83%A9%E3%82%B9"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "カール・フリードリヒ・ガウス2025",
+    "name": {
+      "en": "Carl Friedrich Gauss",
+      "ja": "カール・フリードリヒ・ガウス"
+    },
+    "affiliation": "ゲオルク・アウグスト大学ゲッティンゲン",
+    "tags": [
+      "数学",
+      "物理学",
+      "天文学",
+      "数論",
+      "幾何学",
+      "解析学",
+      "統計学",
+      "測地学",
+      "電磁気学"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\カール・フリードリヒ・ガウス2025.png",
+    "highlights": [
+      {
+        "title": "Disquisitiones Arithmeticae",
+        "type": "書籍",
+        "year": 1801
+      },
+      {
+        "title": "Theoria motus corporum coelestium (天体運行論)",
+        "type": "書籍",
+        "year": 1809
+      },
+      {
+        "title": "Disquisitiones generales circa superficies curvas (曲面の研究)",
+        "type": "書籍",
+        "year": 1827
+      },
+      {
+        "title": "代数学の基本定理の証明",
+        "type": "論文",
+        "year": 1799
+      },
+      {
+        "title": "最小二乗法の発見",
+        "type": "発見",
+        "year": 1795
+      }
+    ],
+    "contribution": {
+      "text": "近代数学のほとんどの分野に重大な影響を与えた。特に数論における合同算術の体系化と平方剰余の相互法則の証明、代数学の基本定理の証明、最小二乗法と正規分布の理論、複素解析や楕円関数論の先駆的研究、ガウス曲率と微分幾何学の創始、地図投影法や測地学への応用、電磁気学における法則の発見など、多岐にわたる業績を残した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%82%AC%E3%82%A6%E3%82%B9"
+    },
+    "trivia": "7歳のとき、1から100までの和を数秒で計算して5050と答えた逸話があり、等差級数の和の公式を独自に導出したとされる。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%82%AC%E3%82%A6%E3%82%B9"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "エミール・デュルケーム2025",
+    "name": {
+      "en": "Émile Durkheim",
+      "ja": "エミール・デュルケーム"
+    },
+    "affiliation": "パリ大学, ボルドー大学, ソルボンヌ大学",
+    "tags": [
+      "哲学",
+      "社会学",
+      "教育学",
+      "人類学",
+      "宗教学"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\エミール・デュルケーム2025.png",
+    "highlights": [
+      {
+        "title": "社会分業論",
+        "type": "著作",
+        "year": 1893
+      },
+      {
+        "title": "社会学的方法の規準",
+        "type": "著作",
+        "year": 1895
+      },
+      {
+        "title": "自殺論",
+        "type": "著作",
+        "year": 1897
+      },
+      {
+        "title": "宗教生活の原初形態",
+        "type": "著作",
+        "year": 1912
+      },
+      {
+        "title": "道徳教育論",
+        "type": "著作",
+        "year": 1925
+      }
+    ],
+    "contribution": {
+      "text": "社会学を経験科学として確立し、社会的事実の概念を導入して集団主義的視点から社会現象を分析する総合社会学を提唱した",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9F%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%87%E3%83%A5%E3%83%AB%E3%82%B1%E3%83%BC%E3%83%A0"
+    },
+    "trivia": "宗教用語「アノミー」を社会学に初導入し、近代社会の病理と位置づけた",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9F%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%87%E3%83%A5%E3%83%AB%E3%82%B1%E3%83%BC%E3%83%A0"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ダグラス・アルトマン2025",
+    "name": {
+      "en": "Doug Altman",
+      "ja": "ダグラス・アルトマン"
+    },
+    "affiliation": "University of Oxford (Professor of Statistics in Medicine); Founder and Director of the Centre for Statistics in Medicine; Director of Cancer Research UK Medical Statistics Group",
+    "tags": [
+      "Medical Statistics",
+      "Biostatistics",
+      "Research Integrity",
+      "Statistical Education",
+      "Clinical Trial Reporting",
+      "Meta-analysis"
+    ],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [
+      {
+        "title": "Statistical methods for assessing agreement between two methods of clinical measurement",
+        "type": "paper",
+        "year": 1986,
+        "doi": "10.1016/S0140-6736(86)90837-8"
+      },
+      {
+        "title": "Practical Statistics for Medical Research",
+        "type": "book",
+        "year": 1991
+      },
+      {
+        "title": "The scandal of poor medical research",
+        "type": "editorial",
+        "year": 1994,
+        "doi": "10.1136/bmj.308.6924.283"
+      },
+      {
+        "title": "Revised recommendations for improving the quality of reports of parallel group randomized trials",
+        "type": "paper",
+        "year": 2001
+      }
+    ],
+    "contribution": {
+      "text": "改良された統計手法の普及、医療研究の信頼性と報告基準の向上を主導。EQUATORネットワークやCONSORTガイドラインの共同設立者として、研究の透明性と正確性を世界的に推進。またBland–Altmanプロットなどの手法を開発し、臨床測定法の一致性評価を革新。",
+      "source": "https://en.wikipedia.org/wiki/Doug_Altman"
+    },
+    "trivia": "『Practical Statistics for Medical Research』はハードカバー50,000部以上を販売。1986年のLancet論文はNature/ Web of Science Top 100にランクインし、40,000回以上引用された。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Doug_Altman"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ピーター・アーミテージ2025",
+    "name": {
+      "en": "Peter Armitage",
+      "ja": "ピーター・アーミテージ"
+    },
+    "affiliation": "",
+    "tags": [
+      "Statistics"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ピーター・アーミテージ2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "- Cochran–Armitage検定法（トレンド検定法）の共同考案者として知られる\n- 1947年から1961年までMedical Research Councilの統計家として勤務\n- 1961年から1976年までLondon School of Hygiene & Tropical Medicine (LSHTM) 医学統計学科教授・学科長を務め、1968/69年に医学統計学修士課程を創設\n- Oxford大学Applied Statistics教授（Biomathematics改称）として活躍し、1990年の正式退職後も『Encyclopedia of Biostatistics』の編集責任者として800人以上の寄稿者・1,200本の記事を統括\n- 臨床試験のデータモニタリング委員会（特にエイズ臨床試験のモニタリング）分野で先駆的貢献\n- 1972年にInternational Biometric Society、1982～84年にRoyal Statistical Society、1990～91年にInternational Society for Clinical Biostatisticsの各会長を歴任",
+      "source": "https://www.lshtm.ac.uk/newsevents/blogs/2024/obituary-peter-armitage"
+    },
+    "trivia": "Peter ArmitageはRoyal Statistical SocietyのGuy Medalをbronze（1962年）、silver（1978年）、gold（1990年）と全て受賞した数少ない統計学者の一人である。",
+    "triviaSource": "https://en.wikipedia.org/wiki/Peter_Armitage_(statistician)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Armitage"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "サンダー・グリーンランド2025",
+    "name": {
+      "en": "Sander Greenland",
+      "ja": "サンダー・グリーンランド"
+    },
+    "affiliation": "University of California, Los Angeles",
+    "tags": [
+      "Statistics",
+      "Epidemiology",
+      "Bayesian Inference",
+      "Causal Inference",
+      "Bias Analysis",
+      "Meta-analysis",
+      "Biostatistics",
+      "Public Health"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\サンダー・グリーンランド2025.png",
+    "highlights": [
+      {
+        "title": "Modeling and variable selection in epidemiologic analysis",
+        "type": "paper",
+        "year": 1989,
+        "doi": "10.2105/AJPH.79.3.340"
+      },
+      {
+        "title": "Causal Diagrams for Epidemiologic Research",
+        "type": "paper",
+        "year": 1999,
+        "doi": "10.1097/00001648-199901000-00008"
+      },
+      {
+        "title": "Multiple-bias modeling for analysis of observational data (with discussion)",
+        "type": "paper",
+        "year": 2005,
+        "doi": "10.1111/j.1467-985x.2004.00349.x"
+      },
+      {
+        "title": "Modern Epidemiology (3rd ed.)",
+        "type": "book",
+        "year": 2008,
+        "doi": ""
+      },
+      {
+        "title": "Scientists rise up against statistical significance",
+        "type": "paper",
+        "year": 2019,
+        "doi": "10.1038/d41586-019-00857-9"
+      }
+    ],
+    "contribution": {
+      "text": "統計学および疫学的方法論への多大な貢献。特にベイズ推論、因果推論、バイアス分析、メタアナリシスの発展。非実験研究と医薬品・ワクチン・医療機器の市販後調査における統計手法の拡張、限界、誤用の検討に注力。",
+      "source": "https://en.wikipedia.org/wiki/Sander_Greenland"
+    },
+    "trivia": "2013年にデンマークのオーフス大学から名誉医学博士号を授与された。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sander_Greenland"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・ハンター2025",
+    "name": {
+      "en": "John Hunter",
+      "ja": "ジョン・ハンター"
+    },
+    "affiliation": "聖ジョージ病院",
+    "tags": [
+      "解剖学",
+      "外科",
+      "博物学",
+      "哺乳類学",
+      "軍医",
+      "コレクター"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ジョン・ハンター2025.png",
+    "highlights": [
+      {
+        "title": "ヒト歯の博物学および歯疾患の報告",
+        "type": "論文"
+      }
+    ],
+    "contribution": {
+      "text": "実験医学の父、近代外科学の開祖として近代医学の発展に大きく貢献した",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC_(%E5%A4%96%E7%A7%91%E5%8C%BB)"
+    },
+    "trivia": "遺体を非合法に調達し解剖講座用の標本を作成した裏の顔を持ち、『ジキル博士とハイド氏』の邸宅のモデルにもなった",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC_(%E5%A4%96%E7%A7%91%E5%8C%BB)"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ディビッド・サケット2025",
+    "name": {
+      "en": "David Lawrence Sackett",
+      "ja": "デイヴィッド・サケット"
+    },
+    "affiliation": "McMaster University; University of Oxford",
+    "tags": [
+      "Evidence-Based Medicine",
+      "Clinical Epidemiology",
+      "Epidemiology",
+      "Biostatistics",
+      "Health Services Research",
+      "Randomized Clinical Trials"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ディビッド・サケット2025.png",
+    "highlights": [
+      {
+        "title": "Clinical Epidemiology: A Basic Science for Clinical Medicine",
+        "type": "book",
+        "year": 1985
+      },
+      {
+        "title": "Evidence-based medicine: what it is and what it isn't",
+        "type": "paper",
+        "year": 1996,
+        "doi": "10.1136/bmj.312.7023.71"
+      },
+      {
+        "title": "Beneficial effect of carotid endarterectomy in symptomatic patients with high grade carotid stenosis",
+        "type": "paper",
+        "year": 1991,
+        "doi": "10.1056/NEJM199108153250701"
+      },
+      {
+        "title": "The number needed to treat: a clinically useful measure of treatment effect",
+        "type": "paper",
+        "year": 1995,
+        "doi": "10.1136/bmj.310.6977.452"
+      },
+      {
+        "title": "Evidence-based medicine: how to practice and teach EBM",
+        "type": "book",
+        "year": 2000
+      }
+    ],
+    "contribution": {
+      "text": "Pioneered the field of evidence-based medicine by founding the first department of clinical epidemiology at McMaster University and the Oxford Centre for Evidence-Based Medicine; developed methods to detect and reduce bias and design randomized clinical trials; popularized critical appraisal and team-based clinical research.",
+      "source": "https://en.wikipedia.org/wiki/David_Sackett"
+    },
+    "trivia": "有名な言葉：「医学校で学ぶことの半分は完全に間違っている。」",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Sackett"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ドナルド・ベルウィック2025",
+    "name": {
+      "en": "Donald M. Berwick",
+      "ja": "ドナルド・ベルウィック"
+    },
+    "affiliation": "Harvard Medical School; Harvard T.H. Chan School of Public Health; Institute for Healthcare Improvement",
+    "tags": [
+      "Health Policy",
+      "Health Care Quality",
+      "Evidence-Based Medicine",
+      "Patient Safety",
+      "Health Economics"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ドナルド・ベルウィック2025.png",
+    "highlights": [
+      {
+        "title": "Curing Health Care",
+        "type": "book",
+        "year": 1990
+      },
+      {
+        "title": "New Rules: Regulation, Markets, and the Quality of American Health Care",
+        "type": "book",
+        "year": 1996
+      },
+      {
+        "title": "Berwick Report",
+        "type": "report",
+        "year": 2013
+      }
+    ],
+    "contribution": {
+      "text": "医療システムの管理において、科学的方法と根拠に基づく医療、比較効果研究を用いて質、安全性、コストのトレードオフを改善する手法を確立。",
+      "source": "https://en.wikipedia.org/wiki/Donald_Berwick"
+    },
+    "trivia": "2005年にイギリス王立勲章ホノラリー・ナイトコマンダー（KBE）を受勲。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Donald_Berwick"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "田口玄一2025",
+    "name": {
+      "en": "Genichi Taguchi",
+      "ja": "田口玄一"
+    },
+    "affiliation": "青山学院大学",
+    "tags": [
+      "統計学",
+      "実験計画法",
+      "品質工学"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\田口玄一2025.png",
+    "highlights": [
+      {
+        "title": "品質工学 (タグチメソッド)",
+        "type": "method"
+      },
+      {
+        "title": "損失関数",
+        "type": "concept"
+      },
+      {
+        "title": "MTS法",
+        "type": "method"
+      }
+    ],
+    "contribution": {
+      "text": "品質工学（タグチメソッド）の創始者として、開発・設計工程に品質管理手法を取り入れ、ばらつきを必然誤差としてとらえロバストネスを設計する手法を確立",
+      "source": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%8F%A3%E7%8E%84%E4%B8%80"
+    },
+    "trivia": "「アメリカを蘇らせた男」と呼ばれ、日本人として3人目のアメリカ自動車殿堂入りを果たした",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%8F%A3%E7%8E%84%E4%B8%80"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ドナルド・ルビン2025",
+    "name": {
+      "en": "Donald Bruce Rubin",
+      "ja": "ドナルド・ブルース・ルービン"
+    },
+    "affiliation": "Harvard University (Emeritus Professor of Statistics), Tsinghua University, Temple University",
+    "tags": [
+      "Statistics",
+      "Causal Inference",
+      "Missing Data",
+      "Propensity Score Matching",
+      "Bayesian Statistics",
+      "Survey Methodology",
+      "Quantitative Psychology"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ドナルド・ルビン2025.png",
+    "highlights": [
+      {
+        "title": "Rubin causal model",
+        "type": "Model"
+      },
+      {
+        "title": "The Use of Matched Sampling and Regression Adjustment in Observational Studies",
+        "type": "Thesis",
+        "year": 1971
+      },
+      {
+        "title": "Propensity Score Matching",
+        "type": "Paper"
+      },
+      {
+        "title": "Causal Inference in Statistics, Social, and Biomedical Sciences",
+        "type": "Textbook",
+        "year": 2015
+      }
+    ],
+    "contribution": {
+      "text": "ルービン因果モデルの提案と観察データに基づく因果推論手法および欠測データ処理方法の開発",
+      "source": "https://en.wikipedia.org/wiki/Donald_Rubin"
+    },
+    "trivia": "法律家のユダヤ人家庭に生まれ、物理学者ジョン・ホイーラーの指導を受けた後、心理学から統計学へ転向した",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Donald_Rubin"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・ポール2025",
+    "name": {
+      "en": "John R. Paul",
+      "ja": "ジョン・R・ポール"
+    },
+    "affiliation": "Yale School of Medicine",
+    "tags": [
+      "Virology",
+      "Poliomyelitis",
+      "Epidemiology",
+      "Preventive Medicine"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ジョン・ポール2025.png",
+    "highlights": [
+      {
+        "title": "A History of Poliomyelitis",
+        "type": "Book",
+        "year": 1971
+      },
+      {
+        "title": "Yale Poliomyelitis Study Unitの設立",
+        "type": "研究プロジェクト",
+        "year": 1931
+      },
+      {
+        "title": "The New York Times Magazineにおけるポリオ治療進展に関する記事",
+        "type": "Article",
+        "year": 1951
+      }
+    ],
+    "contribution": {
+      "text": "ポリオの臨床疫学を確立し、ウイルスの伝播経路（患者の排泄物や下水中）を実証することで予防と治療法の発展に寄与",
+      "source": "https://en.wikipedia.org/wiki/John_R._Paul"
+    },
+    "trivia": "1958年にポリオ殿堂に殿堂入りし、1971年に発表した著書で早期ウイルス曝露による免疫獲得仮説を提唱",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_R._Paul"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "イェレミア・ストラマー2025",
+    "name": {
+      "en": "Jeremiah Stamler",
+      "ja": "イェレミア・ストラマー"
+    },
+    "affiliation": "Feinberg School of Medicine, Northwestern University (Professor Emeritus of Preventive Medicine)",
+    "tags": [
+      "Preventive Cardiology",
+      "Cardiovascular Epidemiology",
+      "Hypertension",
+      "Nutrition",
+      "Risk Factors"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\イェレミア・ストラマー2025.png",
+    "highlights": [
+      {
+        "title": "Experimental Atherosclerosis",
+        "type": "Monograph",
+        "year": 1958
+      }
+    ],
+    "contribution": {
+      "text": "Introduced the term \"risk factors\" into cardiology and pioneered preventive cardiology through studies on the influence of diet, salt, and other nutrients on hypertension and coronary heart disease.",
+      "source": "https://en.wikipedia.org/wiki/Jeremiah_Stamler"
+    },
+    "trivia": "In 1965 he was subpoenaed by the House Committee on Un-American Activities and later cited for contempt of Congress after refusing to testify.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeremiah_Stamler"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "イェジ・ネイマン2025",
+    "name": {
+      "en": "Jerzy Neyman",
+      "ja": "イェジ・ネイマン"
+    },
+    "affiliation": "University of California, Berkeley",
+    "tags": [
+      "Mathematical Statistics",
+      "Statistical Inference",
+      "Probability Theory",
+      "Hypothesis Testing",
+      "Measure-theoretic Probability"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\イェジ・ネイマン2025.png",
+    "highlights": [
+      {
+        "title": "ネイマン・ピアソンの補題",
+        "type": "定理"
+      },
+      {
+        "title": "信頼区間の理論",
+        "type": "理論"
+      }
+    ],
+    "contribution": {
+      "text": "Egon Pearson とともに現代の推計統計学の中心的理論（仮説検定や信頼区間など）を確立し、統計学を独立した学問としてアメリカで確立・発展させた。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%A7%E3%82%B8%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%9E%E3%83%B3"
+    },
+    "trivia": "父は元来ユダヤ系の法律家だったがカトリック信者。ロシア革命後、一時敵国人として拘束されたが研究を続けた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%A7%E3%82%B8%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%9E%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "トーマス・ベイズ2025",
+    "name": {
+      "en": "Thomas Bayes",
+      "ja": "トーマス・ベイズ"
+    },
+    "affiliation": "Royal Society",
+    "tags": [
+      "Mathematics",
+      "Probability Theory",
+      "Statistics",
+      "Bayesian Statistics",
+      "Philosophy"
+    ],
+    "rarity": "R",
+    "avatar": null,
+    "highlights": [
+      {
+        "title": "Divine Benevolence, or an Attempt to Prove That the Principal End of the Divine Providence and Government is the Happiness of His Creatures",
+        "type": "book",
+        "year": 1731
+      },
+      {
+        "title": "An Introduction to the Doctrine of Fluxions, and a Defence of the Mathematicians Against the Objections of the Author of The Analyst",
+        "type": "book",
+        "year": 1736
+      },
+      {
+        "title": "An Essay towards solving a Problem in the Doctrine of Chances",
+        "type": "paper",
+        "year": 1763,
+        "doi": "10.1098/rstl.1763.0053"
+      }
+    ],
+    "contribution": {
+      "text": "ベイズの定理を提唱し、事前知識を条件付確率に組み込む確率論の基礎を確立したことで、統計学と確率論の発展に大きく寄与した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%99%E3%82%A4%E3%82%BA"
+    },
+    "trivia": "1936年に出版された肖像画は実際にベイズを描いているか疑わしく、確実な肖像画は現存しない。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%83%99%E3%82%A4%E3%82%BA"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・スノー2025",
+    "name": {
+      "en": "John Snow",
+      "ja": "ジョン・スノー"
+    },
+    "affiliation": "University of London",
+    "tags": [
+      "Anaesthesia",
+      "Epidemiology",
+      "Public Health",
+      "Obstetric Anaesthesia",
+      "Cholera"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\ジョン・スノー2025.png",
+    "highlights": [
+      {
+        "title": "On the Mode of Communication of Cholera",
+        "type": "Essay",
+        "year": 1849
+      },
+      {
+        "title": "On the Inhalation of the Vapor of Ether",
+        "type": "Guide",
+        "year": 1847
+      },
+      {
+        "title": "On Chloroform and Other Anaesthetics and Their Action and Administration",
+        "type": "Book",
+        "year": 1858
+      },
+      {
+        "title": "On Asphyxiation, and on the Resuscitation of Still-Born Children",
+        "type": "Paper",
+        "year": 1841
+      }
+    ],
+    "contribution": {
+      "text": "He traced the source of the 1854 London cholera outbreak to a contaminated water pump, founding modern epidemiology and supporting germ theory; he also pioneered clinical use and dosage of anaesthetics such as ether and chloroform.",
+      "source": "https://en.wikipedia.org/wiki/John_Snow"
+    },
+    "trivia": "He was invited to administer chloroform to Queen Victoria during the births of Prince Leopold in 1853 and Princess Beatrice in 1857.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Snow"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "エゴン・ピアソン2025",
+    "name": {
+      "en": "Egon Sharpe Pearson",
+      "ja": "エゴン・シャープ・ピアソン"
+    },
+    "affiliation": "University College London",
+    "tags": [
+      "統計学",
+      "数理統計学",
+      "仮説検定",
+      "品質管理"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\エゴン・ピアソン2025.png",
+    "highlights": [
+      {
+        "title": "ネイマン・ピアソンの補題",
+        "type": "theorem"
+      },
+      {
+        "title": "ウェルドン記念賞受賞",
+        "type": "award",
+        "year": 1935
+      },
+      {
+        "title": "ガイ・メダル（金メダル）受賞",
+        "type": "award",
+        "year": 1955
+      }
+    ],
+    "contribution": {
+      "text": "イェジ・ネイマンとともに現代の推計統計学の中心的理論である仮説検定や信頼区間の理論を確立し、工業的品質管理にも貢献した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B4%E3%83%B3%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    },
+    "trivia": "父親は著名な統計学者カール・ピアソンである。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B4%E3%83%B3%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "フローレンス・ナイチンゲール2025",
+    "name": {
+      "en": "Florence Nightingale",
+      "ja": "フローレンス・ナイチンゲール"
+    },
+    "affiliation": "ナイチンゲール看護学校（現・キングス・カレッジ・ロンドン）、イギリス王立統計学会",
+    "tags": [
+      "看護学",
+      "看護教育学",
+      "統計学",
+      "医療統計学",
+      "衛生学",
+      "病院建築",
+      "社会起業",
+      "看護師"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\フローレンス・ナイチンゲール2025.png",
+    "highlights": [
+      {
+        "title": "看護覚え書",
+        "type": "book",
+        "year": 1860
+      },
+      {
+        "title": "病院覚え書",
+        "type": "book",
+        "year": 1863
+      },
+      {
+        "title": "ナイチンゲール看護学校設立",
+        "type": "institution",
+        "year": 1860
+      },
+      {
+        "title": "王立統計学会初の女性会員",
+        "type": "recognition",
+        "year": 1859
+      }
+    ],
+    "contribution": {
+      "text": "近代看護教育の基礎を築き、看護統計学および医療統計学を創始した。また、クリミア戦争時の死亡原因を可視化する統計グラフを開発し、公衆衛生改革に大きく寄与した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB"
+    },
+    "trivia": "国際看護師の日（5月12日）は彼女の誕生日である。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アイザック・ニュートン2025",
+    "name": {
+      "en": "Isaac Newton",
+      "ja": "アイザック・ニュートン"
+    },
+    "affiliation": "ケンブリッジ大学（トリニティ・カレッジ）、王立協会、王立造幣局",
+    "tags": [
+      "自然哲学",
+      "数学",
+      "物理学",
+      "天文学",
+      "錬金術",
+      "神学",
+      "経済学"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\アイザック・ニュートン2025.png",
+    "highlights": [
+      {
+        "title": "自然哲学の数学的諸原理 (Philosophiæ Naturalis Principia Mathematica)",
+        "type": "book",
+        "year": 1687
+      },
+      {
+        "title": "Opticks",
+        "type": "book",
+        "year": 1704
+      },
+      {
+        "title": "流率の級数について (De methodis serierum et fluxionum)",
+        "type": "paper",
+        "year": 1671
+      }
+    ],
+    "contribution": {
+      "text": "古典力学（ニュートン力学）の創始、万有引力の法則の提唱、微積分法の確立、光学への大きな貢献",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
+    },
+    "trivia": "国際単位系（SI）の力の単位「ニュートン」は彼の名前に由来する",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アーチボルド・コクラン2025",
+    "name": {
+      "en": "Archibald Leman Cochrane",
+      "ja": "アーチボルド・コクラン"
+    },
+    "affiliation": "Cardiff University School of Medicine (formerly Welsh National School of Medicine)",
+    "tags": [
+      "Clinical Epidemiology",
+      "Evidence-based Medicine",
+      "Randomized Controlled Trials",
+      "Epidemiology",
+      "Public Health",
+      "Tuberculosis"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\アーチボルド・コクラン2025.png",
+    "highlights": [
+      {
+        "title": "Effectiveness and Efficiency: Random Reflections on Health Services",
+        "type": "Book",
+        "year": 1972
+      },
+      {
+        "title": "Validation of screening procedures",
+        "type": "Paper",
+        "year": 1971,
+        "doi": "10.1093/oxfordjournals.bmb.a070810"
+      },
+      {
+        "title": "Health service 'input' and mortality 'output' in developed countries",
+        "type": "Paper",
+        "year": 1978,
+        "doi": "10.1136/jech.32.3.200"
+      },
+      {
+        "title": "Sickness in Salonica: my first, worst, and most successful clinical trial",
+        "type": "Paper",
+        "year": 1984,
+        "doi": "10.1136/bmj.289.6460.1726"
+      },
+      {
+        "title": "A randomized controlled trial of acetyl Salicylic Acid in the secondary prevention of mortality from myocardial infarction",
+        "type": "Paper",
+        "year": 1974,
+        "doi": "10.1136/bmj.1.5905.436"
+      }
+    ],
+    "contribution": {
+      "text": "提唱したランダム化比較試験（RCT）と証拠に基づく医療の概念により、現代の臨床疫学とエビデンスに基づく医療の父と呼ばれる。",
+      "source": "https://en.wikipedia.org/wiki/Archie_Cochrane"
+    },
+    "trivia": "アーチー・コクラン・アーカイブは、ペナースのランダフ病院（Archie Cochrane Library）に所蔵されている。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Archie_Cochrane"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ゴードン・ガイアット2025",
+    "name": {
+      "en": "Gordon Henry Guyatt",
+      "ja": "ゴードン・ガイアット"
+    },
+    "affiliation": "McMaster University, Departments of Health Research Methods, Evidence and Impact; Medicine",
+    "tags": [
+      "Medicine",
+      "Evidence-based Medicine",
+      "Clinical Epidemiology",
+      "Biostatistics",
+      "Health Research Methodology",
+      "Randomized Trials",
+      "Meta-Analysis",
+      "Clinical Practice Guidelines",
+      "Health Policy"
+    ],
+    "rarity": "SR",
+    "avatar": "avatars\\ゴードン・ガイアット2025.png",
+    "highlights": [
+      {
+        "title": "Evidence-based medicine",
+        "type": "Paper",
+        "year": 1991,
+        "doi": "10.7326/ACPJC-1991-114-2-A16"
+      },
+      {
+        "title": "Evidence-based medicine. A new approach to teaching the practice of medicine. Evidence-Based Medicine Working Group",
+        "type": "Paper",
+        "year": 1992,
+        "doi": "10.1001/jama.268.17.2420"
+      },
+      {
+        "title": "Users' Guides to the Medical Literature: A Manual for Evidence-Based Clinical Practice",
+        "type": "Textbook",
+        "year": 2008
+      },
+      {
+        "title": "Clinical Epidemiology: How to Do Clinical Practice Research, Third Edition",
+        "type": "Textbook",
+        "year": 2006
+      },
+      {
+        "title": "Evidence-Based Nursing: A Guide to Clinical Practice",
+        "type": "Textbook",
+        "year": 2005
+      }
+    ],
+    "contribution": {
+      "text": "Pioneering and leadership in evidence-based medicine, including introducing the term in 1991 and leading the GRADE working group for transparent grading of evidence and recommendations; extensive contributions to randomized trials, meta-analysis, clinical practice guidelines, and quality of life research.",
+      "source": "https://en.wikipedia.org/wiki/Gordon_Guyatt"
+    },
+    "trivia": "His mother was a Czech Jew and Auschwitz and Belsen concentration camp survivor.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Guyatt"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "高木兼寛2025",
+    "name": {
+      "en": "Kanehiro Takaki",
+      "ja": "高木兼寛"
+    },
+    "affiliation": "Imperial Japanese Navy; Tokyo慈恵会医科大学 (Tokyo Jikeikai Medical University)",
+    "tags": [
+      "Military Medicine",
+      "Epidemiology",
+      "Nutritional Science",
+      "Naval Medicine",
+      "Preventive Medicine",
+      "Nursing Education",
+      "Public Health"
+    ],
+    "rarity": "SR",
+    "avatar": "avatars\\高木兼寛2025.png",
+    "highlights": [
+      {
+        "title": "Publication of nutritional theory of beriberi",
+        "type": "Paper",
+        "year": 1885
+      },
+      {
+        "title": "Experimental naval voyage on battleship Tsukuba",
+        "type": "Epidemiological Study",
+        "year": 1884
+      },
+      {
+        "title": "Founding of Tokyo慈恵会医科大学 (成医会講習所)",
+        "type": "Institution Founding",
+        "year": 1881
+      },
+      {
+        "title": "Establishment of nursing education institute (有志共立東京病院看護婦教育所)",
+        "type": "Institution Founding",
+        "year": 1885
+      }
+    ],
+    "contribution": {
+      "text": "日本海軍における脚気対策として兵食の栄養改善を実施し、脚気発生率と死亡率を劇的に低下させた。またこれを基に世界でも早期の疫学的実験航海を行い“日本の疫学の父”とも呼ばれる。さらに、臨床第一の英国式医療を広め、東京慈恵会医科大学や国内初の看護学校を創設し、日本の近代医学・看護教育の基礎を築いた。",
+      "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%85%BC%E5%AF%9B"
+    },
+    "trivia": "故郷宮崎では“ビタミンの父”と称され、兵食改革の一環で海軍カレー導入にも関与。南極大陸の“高木岬”は彼の名に因んで命名された。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%85%BC%E5%AF%9B"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ケネス・ロスマン2025",
+    "name": {
+      "en": "Kenneth J. Rothman",
+      "ja": "ケネス・ロスマン"
+    },
+    "affiliation": "Boston University School of Public Health; RTI International; RTI Health Solutions",
+    "tags": [
+      "Epidemiology",
+      "Cancer Epidemiology",
+      "Pharmacoepidemiology",
+      "Epidemiologic Research Methodology"
+    ],
+    "rarity": "SR",
+    "avatar": "avatars\\ケネス・ロスマン2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "Pioneering methodological work in epidemiologic research, including research methodology, and contributions to understanding teratogenic effects of vitamin A, health effects of mobile phone use, and environmental causes of cancer.",
+      "source": "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
+    },
+    "trivia": "In 2002, the journal Epidemiology renamed its annual prize the 'Kenneth Rothman Epidemiology Prize' in his honor.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジェームス・リンド2025",
+    "name": {
+      "en": "James Lind",
+      "ja": "ジェームス・リンド"
+    },
+    "affiliation": "Royal Navy; University of Edinburgh; Royal Naval Hospital Haslar",
+    "tags": [
+      "Clinical Trials",
+      "Naval Hygiene",
+      "Preventive Medicine",
+      "Scurvy",
+      "Tropical Medicine",
+      "Public Health"
+    ],
+    "rarity": "SR",
+    "avatar": "avatars\\ジェームス・リンド2025.png",
+    "highlights": [
+      {
+        "title": "Experiment on Scurvy aboard HMS Salisbury",
+        "type": "Clinical Trial",
+        "year": 1747
+      },
+      {
+        "title": "A Treatise of the Scurvy",
+        "type": "Book",
+        "year": 1753
+      },
+      {
+        "title": "An Essay on the Most Effectual Means of Preserving the Health of Seamen in the Royal Navy",
+        "type": "Essay",
+        "year": 1762
+      },
+      {
+        "title": "Essay on Diseases Incidental to Europeans in Hot Climates",
+        "type": "Book",
+        "year": 1768
+      }
+    ],
+    "contribution": {
+      "text": "By conducting one of the first controlled clinical trials, he demonstrated that citrus fruits cured scurvy, pioneered naval hygiene practices including ventilation, cleanliness, and fumigation, and proposed methods for fresh water distillation, advancing preventive medicine and improving nutrition among sailors.",
+      "source": "https://en.wikipedia.org/wiki/James_Lind"
+    },
+    "trivia": "名前はロンドン大学衛生熱帯医学学校のフリーズに刻まれ、ジェームス・リンド・アライアンスにその名を残している。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Lind"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・テューキー2025",
+    "name": {
+      "en": "John Wilder Tukey",
+      "ja": "ジョン・ワイルダー・テューキー"
+    },
+    "affiliation": "プリンストン大学, ベル研究所",
+    "tags": [
+      "数学",
+      "統計学",
+      "探索的データ解析",
+      "FFT",
+      "データ可視化"
+    ],
+    "rarity": "SSR",
+    "avatar": "avatars\\ジョン・テューキー2025.png",
+    "highlights": [
+      {
+        "title": "FFTアルゴリズム",
+        "type": "algorithm"
+      },
+      {
+        "title": "箱ひげ図",
+        "type": "statistical chart",
+        "year": 1977
+      },
+      {
+        "title": "\"ビット\"という造語",
+        "type": "terminology"
+      }
+    ],
+    "contribution": {
+      "text": "高速フーリエ変換（FFT）アルゴリズムの共同開発、探索的データ解析（EDA）の提唱、および統計用語の造語・普及。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A5%E3%83%BC%E3%82%AD%E3%83%BC"
+    },
+    "trivia": "“bit”という用語を造語した。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A5%E3%83%BC%E3%82%AD%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "赤池2025",
+    "name": {
+      "en": "Hirotugu Akaike",
+      "ja": "赤池 弘次"
+    },
+    "affiliation": "統計数理研究所",
+    "tags": [
+      "Mathematical Statistics",
+      "Time Series Analysis",
+      "Model Selection",
+      "Information Theory"
+    ],
+    "rarity": "SSR",
+    "avatar": "avatars\\赤池2025.png",
+    "highlights": [
+      {
+        "title": "A new look at the statistical model identification",
+        "type": "paper",
+        "year": 1974,
+        "doi": "10.1109/TAC.1974.1100705"
+      },
+      {
+        "title": "ダイナミックシステムの統計的解析と制御",
+        "type": "book",
+        "year": 1972
+      }
+    ],
+    "contribution": {
+      "text": "赤池情報量規準 (AIC) を1970年代に確立し、モデル選択の標準的手法として理論的発展をもたらした。",
+      "source": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
+    },
+    "trivia": "東京都立川市の統計数理研究所敷地内に建設された長期滞在型施設「Akaike Guest House」は彼にちなむ。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ロナルド・フィッシャー2025",
+    "name": {
+      "en": "Sir Ronald Aylmer Fisher",
+      "ja": "ロナルド・エイルマー・フィッシャー"
+    },
+    "affiliation": "ロザムステッド農事試験場、ユニヴァーシティ・カレッジ・ロンドン、ケンブリッジ大学、オーストラリア連邦科学産業研究機構",
+    "tags": [
+      "統計学",
+      "実験計画法",
+      "進化生物学",
+      "遺伝学",
+      "優生学"
+    ],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [
+      {
+        "title": "Statistical Methods for Research Workers",
+        "type": "book",
+        "year": 1925
+      },
+      {
+        "title": "The Genetical Theory of Natural Selection",
+        "type": "book",
+        "year": 1930
+      },
+      {
+        "title": "The design of experiments",
+        "type": "book",
+        "year": 1935
+      },
+      {
+        "title": "On a distribution yielding the error functions of several well known statistics",
+        "type": "paper",
+        "year": 1924
+      },
+      {
+        "title": "The use of multiple measurements in taxonomic problems",
+        "type": "paper",
+        "year": 1936,
+        "doi": "10.1111/j.1469-1809.1936.tb02137.x"
+      }
+    ],
+    "contribution": {
+      "text": "現代の推測統計学を確立し、分散分析、最尤法、フィッシャー情報量などの統計手法を開発。また『自然選択の遺伝学的理論』によりネオダーウィニズム（総合説）を成立させ、集団遺伝学を創始した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC"
+    },
+    "trivia": "8人の子をもうけ、自らの家庭生活にも優生学的考察を行った。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "マチアス・エッガー2025",
+    "name": {
+      "en": "Matthias Egger",
+      "ja": "マチアス・エッガー"
+    },
+    "affiliation": "University of Bern; University of Bristol",
+    "tags": [
+      "Epidemiology",
+      "Statistics",
+      "Public Health",
+      "Meta-analysis"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\マチアス・エッガー2025.png",
+    "highlights": [
+      {
+        "title": "Bias in meta-analysis detected by a simple, graphical test",
+        "type": "paper",
+        "year": 1997,
+        "doi": "10.1136/bmj.315.7109.629"
+      },
+      {
+        "title": "Are the clinical effects of homoeopathy placebo effects? Comparative study of placebo-controlled trials of homoeopathy and allopathy",
+        "type": "paper",
+        "year": 2005,
+        "doi": "10.1016/S0140-6736(05)67177-2"
+      }
+    ],
+    "contribution": {
+      "text": "メタアナリシスにおけるバイアス検出手法（特にファンネルプロットを用いたエッガー検定）を確立し、臨床疫学と公衆衛生の研究方法に重要な影響を与えた。",
+      "source": "https://en.wikipedia.org/wiki/Matthias_Egger"
+    },
+    "trivia": "2017年から2024年までスイス国立科学財団（SNSF）研究評議会の会長を務め、2020年以降はGESDA（ジュネーブ科学・外交アンティシペーター）の理事を務めている。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Matthias_Egger"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジェームス・ロビンス2025",
+    "name": {
+      "en": "James M. Robins",
+      "ja": "ジェームス・ロビンス"
+    },
+    "affiliation": "Mitchell L. and Robin LaFoley Dong Professor of Epidemiology at Harvard T.H. Chan School of Public Health",
+    "tags": [
+      "Epidemiology",
+      "Biostatistics",
+      "Causal Inference"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ジェームス・ロビンス2025.png",
+    "highlights": [
+      {
+        "title": "A new approach to causal inference in mortality studies with a sustained exposure period—application to control of the healthy worker survivor effect",
+        "type": "paper",
+        "year": 1986,
+        "doi": "10.1016/0270-0255(86)90088-6"
+      },
+      {
+        "title": "The control of confounding by intermediate variables",
+        "type": "paper",
+        "year": 1989,
+        "doi": "10.1002/sim.4780080608"
+      },
+      {
+        "title": "Marginal Structural Models and Causal Inference in Epidemiology",
+        "type": "paper",
+        "year": 2000,
+        "doi": "10.1097/00001648-200009000-00011"
+      },
+      {
+        "title": "Unified Methods for Censored Longitudinal Data and Causality",
+        "type": "book",
+        "year": 2003
+      }
+    ],
+    "contribution": {
+      "text": "Robins advanced statistical methods for drawing causal inferences from complex observational studies and randomized trials with time‐dependent treatments. He introduced the G‐formula, G‐Estimation of Structural Nested Models and Marginal Structural Models, and pioneered dynamic treatment regimes, doubly robust estimators and higher‐order influence functions, transforming modern causal inference.",
+      "source": "https://en.wikipedia.org/wiki/James_Robins"
+    },
+    "trivia": "Robins practiced occupational medicine and attended Yale School of Public Health courses before focusing on biostatistics. He was elected to Phi Beta Kappa at Harvard but did not graduate and is an ISI highly cited researcher.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Robins"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "大隈重信2025",
+    "name": {
+      "en": "",
+      "ja": "大隈重信"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": "avatars\\大隈重信2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "外相在任中に労働者の健康と長寿を経済的価値の観点から理解し、道徳的自制によって健康問題の予防を説いた。また、『日本の精神衛生運動』に関与し、日本の公衆衛生学的精神医学の発展に寄与した。",
+      "source": "https://iuk-repo.repo.nii.ac.jp/record/864/files/Thesis_Chuman_Mitsuko_B-fuku1_2017.pdf, http://jshm.or.jp/journal/56-2/56-2_269.pdf"
+    },
+    "trivia": "外相在任中の10月18日に襲撃を受けた。日本図案会の総裁（初代）に就任した。",
+    "triviaSource": "https://iuk-repo.repo.nii.ac.jp/record/864/files/Thesis_Chuman_Mitsuko_B-fuku1_2017.pdf, https://www.kyobi.ac.jp/img/pdf/kyobikiyou2022.pdf",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/index.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "杉亨二2025",
+    "name": {
+      "en": "",
+      "ja": "杉亨二"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": "avatars\\杉亨二2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "杉 亨二は、明治9年2月に政表課員をはじめとする有志10余名を集めて統計学研究のため「表記学社」を設立。同社は後に明治11年に「スタチスチツク社」、明治25年に「統計学社」と改称され、日本における統計学の普及・発展に大きく寄与した。",
+      "source": "https://www.stat.go.jp/museum/shiryo/sugi.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin03.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "森鴎外2025",
+    "name": {
+      "en": "",
+      "ja": "森鴎外"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": "avatars\\森鴎外2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "森鴎外は明治期の陸軍軍医として軍事衛生学を専門とし、とくに軍医衛生学における衛生統計に強い関心を寄せた。また、明治陸軍で多発した脚気惨害問題（脚気論争）に関与し、その研究・防止対策に取り組んだ。",
+      "source": "https://www.stat.go.jp/museum/toukei150/ijin/ijin04.html\nhttps://note.com/onoken_nobelles/n/n24360c85657e"
+    },
+    "trivia": "医師としての公的活動のかたわら、文豪としても活躍し、『北遊記』や『半日』などの文学作品を執筆した。",
+    "triviaSource": "http://jshm.or.jp/journal/19-4/19-4.pdf",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin04.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "原敬2025",
+    "name": {
+      "en": "",
+      "ja": "原敬"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": "avatars\\原敬2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin05.html"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin05.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アドルフ・ケトレー2025",
+    "name": {
+      "en": "Adolphe Quételet",
+      "ja": "アドルフ・ケトレー"
+    },
+    "affiliation": "ベルギー王立天文台",
+    "tags": [
+      "Mathematics",
+      "Astronomy",
+      "Statistics",
+      "Sociology",
+      "Social Physics"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\アドルフ・ケトレー2025.png",
+    "highlights": [
+      {
+        "title": "Sur l'homme et le développement de ses facultés, ou Essai de physique sociale",
+        "type": "book",
+        "year": 1835
+      },
+      {
+        "title": "La physique sociale",
+        "type": "book",
+        "year": 1869
+      }
+    ],
+    "contribution": {
+      "text": "犯罪率や結婚率、自殺率など社会現象の統計的法則を研究し、『平均人』概念を提唱して社会物理学を創始。さらにボディマス指数を開発し、公衆医学にも大きな貢献を果たした。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%82%B1%E3%83%88%E3%83%AC%E3%83%BC"
+    },
+    "trivia": "誕生日と同じ2月17日に逝去し、ちょうど77歳で生涯を閉じた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%82%B1%E3%83%88%E3%83%AC%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ウィリアム・ペティ2025",
+    "name": {
+      "en": "Sir William Petty",
+      "ja": "ウィリアム・ペティ"
+    },
+    "affiliation": "Oxford University",
+    "tags": [
+      "古典派経済学",
+      "統計学",
+      "政治算術",
+      "測量学",
+      "医学",
+      "自然科学"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ウィリアム・ペティ2025.png",
+    "highlights": [
+      {
+        "title": "A Treatise of Taxes and Contributions",
+        "type": "Book",
+        "year": 1662
+      },
+      {
+        "title": "Political Arithmetic",
+        "type": "Book",
+        "year": 1690
+      },
+      {
+        "title": "The Political Anatomy of Ireland",
+        "type": "Book",
+        "year": 1691
+      },
+      {
+        "title": "An Essay of the Improvement of Money and Coin",
+        "type": "Book",
+        "year": 1682
+      },
+      {
+        "title": "Observations upon the Bills of Mortality",
+        "type": "Paper",
+        "year": 1683
+      }
+    ],
+    "contribution": {
+      "text": "労働価値説を初めて唱え、経験的・統計的手法を経済学に導入。政 候算術の先駆者として国富や余剰の数量的分析を行い、古典派経済学と統計学の基礎を築いた。公共事業の経済的・社会的効果を示し、国家経済学の先駆的研究を展開した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%9A%E3%83%86%E3%82%A3"
+    },
+    "trivia": "ランズダウン侯爵の爵位名は彼が指揮したアイルランドの土地測量（Down Survey）に由来する。また、双底船（ダブルボトム）設計で海軍の注目を集めたが、初航海後に失踪するなど話題となった。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%9A%E3%83%86%E3%82%A3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョン・グラント2025",
+    "name": {
+      "en": "John Graunt",
+      "ja": "ジョン・グラント"
+    },
+    "affiliation": "Fellow of the Royal Society",
+    "tags": [
+      "Demography",
+      "Epidemiology",
+      "Statistics",
+      "Public Health"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ジョン・グラント2025.png",
+    "highlights": [
+      {
+        "title": "Natural and Political Observations Made Upon the Bills of Mortality",
+        "type": "book",
+        "year": 1662
+      }
+    ],
+    "contribution": {
+      "text": "創始的な人口統計学の手法を確立し、最初の生命表を作成、疫学および統計的分析の先駆者として現代の公衆衛生統計学の基礎を築いた。",
+      "source": "https://en.wikipedia.org/wiki/John_Graunt"
+    },
+    "trivia": "職業は仕立屋（ハバーダッシャー）であり、ロンドン大火による損失とカトリックへの改宗に伴う差別により破産を経験した。",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_Graunt"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "エドモンド・ハレー2025",
+    "name": {
+      "en": "Edmond Halley",
+      "ja": "エドモンド・ハレー"
+    },
+    "affiliation": "オックスフォード大学; グリニッジ天文台",
+    "tags": [
+      "天文学",
+      "地球物理学",
+      "数学",
+      "物理学",
+      "気象学",
+      "保険数理学"
+    ],
+    "rarity": "N",
+    "avatar": null,
+    "highlights": [
+      {
+        "title": "Catalogus Stellarum Australium (南天星表)",
+        "type": "論文（星表）",
+        "year": 1679
+      },
+      {
+        "title": "Principia Mathematica の出版支援",
+        "type": "出版支援",
+        "year": 1687
+      },
+      {
+        "title": "貿易風とモンスーンに関する論文",
+        "type": "論文",
+        "year": 1686
+      },
+      {
+        "title": "生命表および年金算出に関する論文",
+        "type": "論文",
+        "year": 1693
+      },
+      {
+        "title": "General Chart of the Variation of the Compass (地磁気図)",
+        "type": "海図",
+        "year": 1701
+      },
+      {
+        "title": "Synopsis Astronomia Cometicae (彗星天文学概論)",
+        "type": "著書",
+        "year": 1705
+      }
+    ],
+    "contribution": {
+      "text": "ハレー彗星の軌道計算をはじめとした天文学的研究、南半球星表作成による恒星観測への貢献、地磁気偏角図の初刊行、保険数理学の基礎となる生命表の作成、プリンキピアの出版支援など多分野にわたる科学的業績",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%BC"
+    },
+    "trivia": "姓の発音には[hæli]（valleyと同音）や[hɔːli]など諸説があり、日本語表記も「ハレー」「ハリー」など混在しているが、現在は「ハレー」が一般的",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%83%A2%E3%83%B3%E3%83%89%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジェロラモ・カルダノ2025",
+    "name": {
+      "en": "Gerolamo Cardano",
+      "ja": "ジェロラモ・カルダーノ"
+    },
+    "affiliation": "パヴィア大学（パヴィア大学医学教授）、パドヴァ大学で学位取得",
+    "tags": [
+      "数学",
+      "代数学",
+      "確率論",
+      "医学",
+      "物理学",
+      "哲学",
+      "文学",
+      "占星術",
+      "発明"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ジェロラモ・カルダノ2025.png",
+    "highlights": [
+      {
+        "title": "Artis magnae, sive de regulis algebraicis (Ars Magna)",
+        "type": "book",
+        "year": 1545
+      },
+      {
+        "title": "Liber de ludo aleae",
+        "type": "book",
+        "year": 1663
+      },
+      {
+        "title": "De subtilitate rerum",
+        "type": "book",
+        "year": 1550
+      },
+      {
+        "title": "De vita propria",
+        "type": "autobiography",
+        "year": 1576
+      }
+    ],
+    "contribution": {
+      "text": "三次方程式および四次方程式の解法（カルダノの公式）を公表し、数学史上初めて虚数の概念を導入。賭博に関する研究で確率論の基礎を提示。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%A9%E3%83%A2%E3%83%BB%E3%82%AB%E3%83%AB%E3%83%80%E3%83%BC%E3%83%8E"
+    },
+    "trivia": "自在継手（カルダンジョイント）の考案者であり、占星術師・賭博師としても活動。自身の死期を占星術で予言し、その日に自殺したと伝えられる。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%A9%E3%83%A2%E3%83%BB%E3%82%AB%E3%83%AB%E3%83%80%E3%83%BC%E3%83%8E"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ジョセフ＝ルイ・ラグランジュ2025",
+    "name": {
+      "en": "Joseph-Louis Lagrange",
+      "ja": "ジョセフ＝ルイ・ラグランジュ"
+    },
+    "affiliation": "エコール・ポリテクニーク",
+    "tags": [
+      "数学",
+      "天文学",
+      "物理学",
+      "解析力学",
+      "数論",
+      "天体力学"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ジョセフ＝ルイ・ラグランジュ2025.png",
+    "highlights": [
+      {
+        "title": "Mécanique analytique",
+        "type": "book",
+        "year": 1788,
+        "doi": ""
+      },
+      {
+        "title": "ラグランジュの四平方定理",
+        "type": "theorem",
+        "year": 1770,
+        "doi": ""
+      },
+      {
+        "title": "ラグランジュ点の発見",
+        "type": "discovery",
+        "year": 1772,
+        "doi": ""
+      }
+    ],
+    "contribution": {
+      "text": "微分積分学を物理学に応用し、最小作用の原理を基に解析力学（ラグランジュ力学）を創始し、力学を体系化した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%82%BC%E3%83%95%EF%BC%9D%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%A9%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B8%E3%83%A5"
+    },
+    "trivia": "ラヴォアジエの処刑を嘆いて「彼の頭を切り落とすのは一瞬だが、彼と同じ頭脳が現れるには100年かかる」と語ったとされ、生前マリー・アントワネットの数学教師も務めた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%82%BC%E3%83%95%EF%BC%9D%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%A9%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B8%E3%83%A5"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ダニエル・ベルヌーイ2025",
+    "name": {
+      "en": "Daniel Bernoulli",
+      "ja": "ダニエル・ベルヌーイ"
+    },
+    "affiliation": "サンクトペテルブルク科学アカデミー、バーゼル大学",
+    "tags": [
+      "Mathematics",
+      "Botany",
+      "Physics",
+      "Medicine",
+      "Fluid Mechanics",
+      "Probability Theory",
+      "Economics"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ダニエル・ベルヌーイ2025.png",
+    "highlights": [
+      {
+        "title": "Exercitationes (Mathematical Exercises)",
+        "type": "book",
+        "year": 1724
+      },
+      {
+        "title": "Hydrodynamica",
+        "type": "book",
+        "year": 1738
+      },
+      {
+        "title": "リスクの測定に関する新しい理論",
+        "type": "paper",
+        "year": 1738
+      }
+    ],
+    "contribution": {
+      "text": "ニュートン理論とライプニッツの微積分法を組み合わせ、エネルギー保存則を応用して流体力学の基礎を築き、ベルヌーイの定理を確立した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%99%E3%83%AB%E3%83%8C%E3%83%BC%E3%82%A4"
+    },
+    "trivia": "1734年にパリ・アカデミー賞で父ヨハンと同時受賞し、父との関係がさらに悪化した。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%8B%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%99%E3%83%AB%E3%83%8C%E3%83%BC%E3%82%A4"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "レオンハルト・オイラー2025",
+    "name": {
+      "en": "Leonhard Euler",
+      "ja": "レオンハルト・オイラー"
+    },
+    "affiliation": "サンクトペテルブルク科学アカデミー",
+    "tags": [
+      "数学",
+      "天文学"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\レオンハルト・オイラー2025.png",
+    "highlights": [
+      {
+        "title": "Introductio in analysin infinitorum",
+        "type": "著書",
+        "year": 1748
+      },
+      {
+        "title": "Institutiones calculi differentialis",
+        "type": "著書",
+        "year": 1755
+      },
+      {
+        "title": "Lettres à une Princesse d'Allemagne sur divers sujets de physique et de philosophie",
+        "type": "著書",
+        "year": 1768
+      }
+    ],
+    "contribution": {
+      "text": "18世紀数学界の中心人物として、無限級数や微分積分学の体系化に貢献。オイラーの公式やオイラー数、オイラーの定理など多くの公式を発見し、数論・グラフ理論・トポロジー・力学・流体力学など幅広い分野の基礎を築いた。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%B3%E3%83%8F%E3%83%AB%E3%83%88%E3%83%BB%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC"
+    },
+    "trivia": "生涯に約886本の論文を執筆し、総ページ数は約5万ページに及ぶ。片目を失明した後も研究を継続し、最終的には両目を失った状態で活動を続けた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%B3%E3%83%8F%E3%83%AB%E3%83%88%E3%83%BB%E3%82%AA%E3%82%A4%E3%83%A9%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "チャールズ・スピアマン2025",
+    "name": {
+      "en": "Charles Edward Spearman",
+      "ja": "チャールズ・エドワード・スピアマン"
+    },
+    "affiliation": "ユニヴァーシティ・カレッジ・ロンドン",
+    "tags": [
+      "心理学",
+      "知能研究",
+      "因子分析",
+      "統計学",
+      "順位相関"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\チャールズ・スピアマン2025.png",
+    "highlights": [
+      {
+        "title": "",
+        "type": "論文(因子分析)",
+        "year": 1904
+      },
+      {
+        "title": "",
+        "type": "論文(順位相関係数)",
+        "year": 1904
+      },
+      {
+        "title": "",
+        "type": "論文(補正順位相関係数)",
+        "year": 1907
+      }
+    ],
+    "contribution": {
+      "text": "知能の一般能力（g因子）と特殊能力（s因子）の2因子モデルを提唱し、因子分析を開拓した。また、順位相関係数を開発し、統計学的方法を心理学研究に導入した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%BB%E3%82%B9%E3%83%94%E3%82%A2%E3%83%9E%E3%83%B3"
+    },
+    "trivia": "15年間陸軍士官を務めた後、心理学の実験研究に転向した",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%BB%E3%82%B9%E3%83%94%E3%82%A2%E3%83%9E%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アブー・ユースフ・ヤアクーブ・イブン・イスハーク・アル＝キンディー2025",
+    "name": {
+      "en": "",
+      "ja": "アブー・ユースフ・ヤアクーブ・イブン・イスハーク・アル＝キンディー"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": "avatars\\アブー・ユースフ・ヤアクーブ・イブン・イスハーク・アル＝キンディー2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://www.tandfonline.com/doi/abs/10.1198/tas.2011.10191"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://www.tandfonline.com/doi/abs/10.1198/tas.2011.10191"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "フランシス・ゴルトン2025",
+    "name": {
+      "en": "Sir Francis Galton",
+      "ja": "フランシス・ゴルトン"
+    },
+    "affiliation": "University College London (Galton Laboratory)",
+    "tags": [
+      "Genetics",
+      "Biometrics",
+      "Statistics",
+      "Anthropology",
+      "Eugenics",
+      "Meteorology",
+      "Psychology"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\フランシス・ゴルトン2025.png",
+    "highlights": [
+      {
+        "title": "Hereditary Genius",
+        "type": "book",
+        "year": 1869
+      },
+      {
+        "title": "English Men of Science: their Nature and Nurture (英国の科学者たち その生まれと育ち)",
+        "type": "book",
+        "year": 1874
+      },
+      {
+        "title": "Inquiries into Human Faculty and its Development (人間の才能とその発達の研究)",
+        "type": "book",
+        "year": 1883
+      },
+      {
+        "title": "Natural Inheritance (自然的遺伝)",
+        "type": "book",
+        "year": 1889
+      },
+      {
+        "title": "Finger Prints (指紋)",
+        "type": "book",
+        "year": 1892
+      }
+    ],
+    "contribution": {
+      "text": "統計学における相関・回帰の概念を確立し、行動遺伝学や個人差心理学の基礎を築いた。優生学を創始し、人体測定データの収集と分析を通じて生物測定学（バイオメトリクス）を発展させ、天気図の考案により気象学にも貢献した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%82%B4%E3%83%AB%E3%83%88%E3%83%B3"
+    },
+    "trivia": "犬笛を発明し（ゴルトン・ホイッスル）、チャールズ・ダーウィンの従兄にあたり、1909年にナイトに叙せられた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%BB%E3%82%B4%E3%83%AB%E3%83%88%E3%83%B3"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ウィリアム・ゴセット2025",
+    "name": {
+      "en": "William Sealy Gosset",
+      "ja": "ウィリアム・シーリー・ゴセット"
+    },
+    "affiliation": "ギネスビール社 ダブリン醸造所",
+    "tags": [
+      "推計統計学",
+      "統計学",
+      "醸造技術",
+      "実験計画法"
+    ],
+    "rarity": "N",
+    "avatar": "avatars\\ウィリアム・ゴセット2025.png",
+    "highlights": [
+      {
+        "title": "The probable error of a mean",
+        "type": "論文",
+        "year": 1908
+      },
+      {
+        "title": "Student の t 分布",
+        "type": "業績",
+        "year": 1908
+      }
+    ],
+    "contribution": {
+      "text": "小標本での推定に対応する t 分布を導入し、醸造や農業における統計的手法を発展させた。また、土壌や気候の影響を受けにくい頑健な品種育種を目指す実験計画法の原理を提唱した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B4%E3%82%BB%E3%83%83%E3%83%88"
+    },
+    "trivia": "企業秘密保持のためペンネーム「Student」で論文を発表し、ピアソンとフィッシャーという統計学界のライバル両者と良好な関係を保ち続けた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B4%E3%82%BB%E3%83%83%E3%83%88"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "福沢諭吉2025",
+    "name": {
+      "en": "",
+      "ja": "福沢諭吉"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "R",
+    "avatar": "avatars\\福沢諭吉2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin02.html"
+    },
+    "trivia": "福沢諭吉は明治15年（1882年）に売薬の販売事業を徹底的に追求し、時事新報（明治15年11月18日付）の論説欄でその活動が紹介された。また、明治29年（1896年）には「人種改良」に関する論文を発表している。",
+    "triviaSource": "https://plaza.umin.ac.jp/yakushi/wp3/wp-content/uploads/2022/01/Vol24-2_all.pdf;https://iuk-repo.repo.nii.ac.jp/record/864/files/Thesis_Chuman_Mitsuko_B-fuku1_2017.pdf",
+    "sources": [
+      "http://www.stat.go.jp/library/meiji150/ijin/ijin02.html"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ガリレオ・ガリレイ2025",
+    "name": {
+      "en": "Galileo Galilei",
+      "ja": "ガリレオ・ガリレイ"
+    },
+    "affiliation": "ピサ大学、パドヴァ大学",
+    "tags": [
+      "天文学",
+      "物理学",
+      "数学",
+      "哲学"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\ガリレオ・ガリレイ2025.png",
+    "highlights": [
+      {
+        "title": "星界の報告 (Sidereus Nuncius)",
+        "type": "論文",
+        "year": 1610
+      },
+      {
+        "title": "贋金鑑識官 (Il Saggiatore)",
+        "type": "論文",
+        "year": 1623
+      },
+      {
+        "title": "天文対話 (Dialogo sopra i due massimi sistemi del mondo)",
+        "type": "書籍",
+        "year": 1632
+      },
+      {
+        "title": "新科学対話 (Discorsi e dimostrazioni matematiche intorno a due nuove scienze)",
+        "type": "書籍",
+        "year": 1638
+      },
+      {
+        "title": "小天秤論文",
+        "type": "論文",
+        "year": 1586
+      }
+    ],
+    "contribution": {
+      "text": "望遠鏡を用いた天体観測の導入、地動説の擁護、自由落下や慣性の法則など運動法則の定式化を通じて近代科学的方法を確立した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4"
+    },
+    "trivia": "長女マリア・チェレステとの手紙124通が現存している",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ブレーズ・パスカル2025",
+    "name": {
+      "en": "Blaise Pascal",
+      "ja": "ブレーズ・パスカル"
+    },
+    "affiliation": "",
+    "tags": [
+      "Mathematics",
+      "Geometry",
+      "Probability Theory",
+      "Philosophy",
+      "Theology",
+      "Natural Philosophy",
+      "Physics",
+      "Skepticism",
+      "Projective Geometry"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\ブレーズ・パスカル2025.png",
+    "highlights": [
+      {
+        "title": "Pascaline",
+        "type": "mechanical calculator",
+        "year": 1642
+      },
+      {
+        "title": "Traité du triangle arithmétique",
+        "type": "paper",
+        "year": 1655
+      },
+      {
+        "title": "Treatise on the Equilibrium of Liquids",
+        "type": "paper",
+        "year": 1647
+      }
+    ],
+    "contribution": {
+      "text": "パスカル三角形の研究、確率論の創始、パスカルの法則（流体静力学）、初期の機械式計算機（パスカリーヌ）、自然哲学やキリスト教神学への貢献",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%91%E3%82%B9%E3%82%AB%E3%83%AB"
+    },
+    "trivia": "19歳で世界初の機械式計算機「パスカリーヌ」を発明",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AC%E3%83%BC%E3%82%BA%E3%83%BB%E3%83%91%E3%82%B9%E3%82%AB%E3%83%AB"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "フアン・カラムエル・イ・ロブコヴィッツ2025",
+    "name": {
+      "en": "Juan Caramuel y Lobkowitz",
+      "ja": "フアン・カラムエル・イ・ロブコヴィッツ"
+    },
+    "affiliation": "University of Alcalá; University of Salamanca; Old University of Leuven; Catholic Church (Bishop of Campagna e Satrianum, Bishop of Vigevano)",
+    "tags": [
+      "Philosophy",
+      "Mathematics",
+      "Astronomy",
+      "Theology",
+      "Architecture",
+      "Combinatorics",
+      "Probability",
+      "Metaphysics",
+      "Moral Philosophy",
+      "Scholasticism",
+      "Aristotelianism"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\フアン・カラムエル・イ・ロブコヴィッツ2025.png",
+    "highlights": [
+      {
+        "title": "Camuelis primus calamus",
+        "type": "astronomical tables",
+        "year": 1617
+      },
+      {
+        "title": "Mathesis biceps",
+        "type": "book",
+        "year": 1667
+      },
+      {
+        "title": "Mathesis nova",
+        "type": "book",
+        "year": 1670
+      },
+      {
+        "title": "Architectura civil, recta y obliqua",
+        "type": "architectural treatise",
+        "year": 1678
+      },
+      {
+        "title": "Design of the Vigevano Cathedral façade",
+        "type": "architectural work",
+        "year": 1678
+      }
+    ],
+    "contribution": {
+      "text": "Early developer of binary numeral system concepts; pioneered combinatorics and probability (republished Huygens’s work with explanations); proposed methods prefiguring cologarithms; applied mathematical rules to theological and moral problems; introduced anamorphosis theory in architecture.",
+      "source": "https://en.wikipedia.org/wiki/Juan_Caramuel_y_Lobkowitz"
+    },
+    "trivia": "Knew 24 languages; published over 260 works; at age ten published astronomical tables; reputed to have brought some 30,000 people back to Catholicism through his preaching.",
+    "triviaSource": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Juan_Caramuel_y_Lobkowitz"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "アドリアン＝マリ・ルジャンドル2025",
+    "name": {
+      "en": "Adrien-Marie Legendre",
+      "ja": "アドリアン＝マリ・ルジャンドル"
+    },
+    "affiliation": "École陸軍学校（École Militaire, Paris）",
+    "tags": [
+      "Statistics",
+      "Number Theory",
+      "Algebra",
+      "Analysis"
+    ],
+    "rarity": "R",
+    "avatar": "avatars\\アドリアン＝マリ・ルジャンドル2025.png",
+    "highlights": [
+      {
+        "title": "Essai sur la Théorie des Nombres",
+        "type": "book",
+        "year": 1798
+      },
+      {
+        "title": "Traité des Fonctions Elliptiques",
+        "type": "book",
+        "year": 1828
+      },
+      {
+        "title": "『媒体に対抗して運動している物体の軌道』に関する論文",
+        "type": "paper",
+        "year": 1782
+      }
+    ],
+    "contribution": {
+      "text": "整数論や楕円積分に大きく貢献し、平方剰余記号の導入、素数定理の予想、フェルマーの最終定理 n=5 の証明、さらに解析力学におけるルジャンドル変換などを通じて統計学、代数学、解析学の発展に寄与した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%EF%BC%9D%E3%83%9E%E3%83%AA%E3%83%BB%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB"
+    },
+    "trivia": "長らく数学者アドリアン＝マリ・ルジャンドルの肖像画とされていたものは、実際にはフランスの政治家ルイ・ルジャンドルの肖像画であり、約2世紀にわたり誤認されていた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AA%E3%82%A2%E3%83%B3%EF%BC%9D%E3%83%9E%E3%83%AA%E3%83%BB%E3%83%AB%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%89%E3%83%AB"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ピエール・ド・フェルマー2025",
+    "name": {
+      "en": "Pierre de Fermat",
+      "ja": "ピエール・ド・フェルマー"
+    },
+    "affiliation": "トゥールーズ議会",
+    "tags": [
+      "数論",
+      "解析幾何学",
+      "確率論",
+      "法律"
+    ],
+    "rarity": "SR",
+    "avatar": "avatars\\ピエール・ド・フェルマー2025.png",
+    "highlights": [
+      {
+        "title": "フェルマーの原理",
+        "type": "原理"
+      },
+      {
+        "title": "フェルマーの小定理",
+        "type": "定理"
+      },
+      {
+        "title": "フェルマーの最終定理",
+        "type": "定理"
+      },
+      {
+        "title": "Adequality",
+        "type": "方法・技法"
+      }
+    ],
+    "contribution": {
+      "text": "確率論の基礎をパスカルと共に築き、デカルトと独立に解析幾何学を創案。数論においても多くの独創的命題を提案し、「数論の父」と称される。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC"
+    },
+    "trivia": "法律家として働きながら数学を研究し、フランス語の他にスペイン語やラテン語で詩を作成。またフェルマーの最終定理は余白に「証明は余白に書ききれない」と記されたまま360年以上未解決だった。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A7%E3%83%AB%E3%83%9E%E3%83%BC"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "スタニスワフ・ウラム2025",
+    "name": {
+      "en": "Stanisław Ulam",
+      "ja": "スタニスワフ・ウラム"
+    },
+    "affiliation": "プリンストン高等研究所, ハーバード大学, ウィスコンシン大学マディソン校, ロスアラモス国立研究所, コロラド大学ボルダー校, フロリダ大学",
+    "tags": [
+      "数学",
+      "集合論",
+      "測度論",
+      "トポロジー",
+      "エルゴード理論",
+      "数論",
+      "グラフ理論",
+      "セル・オートマトン",
+      "モンテカルロ法",
+      "核兵器開発"
+    ],
+    "rarity": "SSR",
+    "avatar": "avatars\\スタニスワフ・ウラム2025.png",
+    "highlights": [
+      {
+        "title": "モンテカルロ法",
+        "type": "method"
+      },
+      {
+        "title": "テラー＝ウラム配置",
+        "type": "nuclear mechanism"
+      },
+      {
+        "title": "ウラムの螺旋",
+        "type": "discovery"
+      },
+      {
+        "title": "フェルミ-パスタ-ウラムの問題",
+        "type": "problem"
+      },
+      {
+        "title": "コラッツの問題（ウラムの予想）",
+        "type": "research"
+      },
+      {
+        "title": "Reconstruction conjecture（ウラムの予想）",
+        "type": "research"
+      }
+    ],
+    "contribution": {
+      "text": "多岐にわたる数学の分野に貢献し、特に集合論、測度論、トポロジー、数論、セルオートマトンなどの基礎的研究や、モンテカルロ法の考案、水素爆弾の機構（テラー＝ウラム配置）の創案などの業績を残した。",
+      "source": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%AF%E3%83%95%E3%83%BB%E3%82%A6%E3%83%A9%E3%83%A0"
+    },
+    "trivia": "アメリカ到着後、一週間で英語を習得し、言語習得は数学習得と同様の不連続的過程であると述べた。",
+    "triviaSource": "",
+    "sources": [
+      "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%BF%E3%83%8B%E3%82%B9%E3%83%AF%E3%83%95%E3%83%BB%E3%82%A6%E3%83%A9%E3%83%A0"
+    ],
+    "created_at": "2025-04-28"
+  },
+  {
+    "id": "ユリアン・ヒギンズ2025",
+    "name": {
+      "en": "",
+      "ja": "ユリアン・ヒギンズ"
+    },
+    "affiliation": "",
+    "tags": [],
+    "rarity": "N",
+    "avatar": "avatars\\ユリアン・ヒギンズ2025.png",
+    "highlights": [],
+    "contribution": {
+      "text": "",
+      "source": "https://scholar.google.co.jp/citations?user=EYQIr1sAAAAJ"
+    },
+    "trivia": "",
+    "triviaSource": "",
+    "sources": [
+      "https://scholar.google.co.jp/citations?user=EYQIr1sAAAAJ"
+    ],
+    "created_at": "2025-04-28"
+  }
+]
