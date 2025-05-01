@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Browser Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+        .test-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-result {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+        }
+        .error {
+            background-color: #ffebee;
+            color: #d32f2f;
+        }
+        img {
+            max-width: 200px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Card Browser Path Fix Test</h1>
+        
+        <div class="test-item">
+            <h2>Test 1: Backslash Path Conversion</h2>
+            <div id="test1-input">Input: "avatars\\rosenbaum2025.png"</div>
+            <div id="test1-output" class="test-result"></div>
+        </div>
+        
+        <div class="test-item">
+            <h2>Test 2: Image Loading</h2>
+            <div>Original Path: <span id="test2-original"></span></div>
+            <div>Converted Path: <span id="test2-converted"></span></div>
+            <div class="test-result">
+                <h3>Original Image (Will Fail):</h3>
+                <img id="original-img" src="" alt="Original Path Image">
+                <div id="original-status"></div>
+                
+                <h3>Converted Image:</h3>
+                <img id="converted-img" src="" alt="Converted Path Image">
+                <div id="converted-status"></div>
+            </div>
+        </div>
+        
+        <div class="test-item">
+            <h2>Test 3: JSON Loading</h2>
+            <div class="test-result" id="json-test-result">
+                Loading JSON...
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Test 1: Backslash Path Conversion
+            const testPath = "avatars\\rosenbaum2025.png";
+            const convertedPath = testPath.replace(/\\/g, '/');
+            document.getElementById('test1-output').textContent = `Output: "${convertedPath}"`;
+            
+            // Test 2: Image Loading
+            const originalPath = "avatars\\rosenbaum2025.png";
+            const fixedPath = originalPath.replace(/\\/g, '/');
+            
+            document.getElementById('test2-original').textContent = originalPath;
+            document.getElementById('test2-converted').textContent = fixedPath;
+            
+            const originalImg = document.getElementById('original-img');
+            const convertedImg = document.getElementById('converted-img');
+            
+            originalImg.src = originalPath;
+            convertedImg.src = fixedPath;
+            
+            originalImg.onerror = function() {
+                document.getElementById('original-status').textContent = "Error: Failed to load image with backslashes";
+                document.getElementById('original-status').classList.add('error');
+            };
+            
+            originalImg.onload = function() {
+                document.getElementById('original-status').textContent = "Success: Image loaded correctly";
+            };
+            
+            convertedImg.onerror = function() {
+                document.getElementById('converted-status').textContent = "Error: Failed to load image";
+                document.getElementById('converted-status').classList.add('error');
+            };
+            
+            convertedImg.onload = function() {
+                document.getElementById('converted-status').textContent = "Success: Image loaded correctly";
+            };
+            
+            // Test 3: JSON Loading
+            async function testJsonLoading() {
+                try {
+                    const response = await fetch('scholars_enhanced.json');
+                    const scholars = await response.json();
+                    
+                    let result = `Successfully loaded ${scholars.length} scholars<br><br>`;
+                    
+                    // Check first 3 scholars with avatars
+                    let count = 0;
+                    for (const scholar of scholars) {
+                        if (scholar.avatar && count < 3) {
+                            result += `Scholar: ${scholar.name.ja}<br>`;
+                            result += `Original avatar path: ${scholar.avatar}<br>`;
+                            result += `Converted path: ${scholar.avatar.replace(/\\/g, '/')}<br><br>`;
+                            count++;
+                        }
+                    }
+                    
+                    document.getElementById('json-test-result').innerHTML = result;
+                } catch (error) {
+                    document.getElementById('json-test-result').innerHTML = `Error loading JSON: ${error.message}`;
+                    document.getElementById('json-test-result').classList.add('error');
+                }
+            }
+            
+            testJsonLoading();
+        });
+    </script>
+</body>
+</html>
