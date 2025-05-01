@@ -164,7 +164,7 @@
             let scholars = [];
             let filteredScholars = [];
             let currentIndex = 0;
-            let jsonFile = 'scholars_enhanced_tavily.json'; // 更新されたJSON
+            let jsonFile = 'scholars_enhanced.json'; // 更新されたJSON
             let editedScholars = {}; // 編集されたデータを保持
             
             const cardContainer = document.getElementById('card-container');
@@ -336,7 +336,8 @@
             // カードをレンダリング
             function renderCard(scholar) {
                 const rarityClass = scholar.rarity?.toLowerCase() || 'n';
-                const avatar = scholar.avatar || 'https://via.placeholder.com/300?text=No+Image';
+                // Fix backslash paths in avatar URLs
+                const avatar = scholar.avatar ? scholar.avatar.replace(/\\/g, '/') : 'https://via.placeholder.com/300?text=No+Image';
                 
                 const html = `
                     <div class="card ${rarityClass}">
