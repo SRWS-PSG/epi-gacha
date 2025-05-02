@@ -41,10 +41,10 @@
       }
     ],
     "contribution": {
-      "text": "He has advanced methods for causal inference in observational studies, notably sensitivity analysis, optimal matching, design sensitivity, evidence factors, quasi-experimental devices, and the propensity score.",
+      "text": "プロペンシティスコアや感度分析を持ち込むことで、観察データからの因果推論の方法論の発展に寄与した。",
       "source": "https://en.wikipedia.org/wiki/Paul_Rosenbaum"
     },
-    "trivia": "His R. A. Fisher Lecture is available on YouTube beginning at minute 32.",
+    "trivia": "未測定交絡に関してEvidence Factorという概念を提唱したが、そちらはあまり流行していない。",
     "triviaSource": "https://www.upenn.edu/faculty-profiles/paul-rosenbaum",
     "sources": [
       "https://en.wikipedia.org/wiki/Paul_Rosenbaum"
@@ -147,7 +147,7 @@
       }
     ],
     "contribution": {
-      "text": "計算可能性理論の確立とチューリングマシンの提案による計算モデルの形式化、停止性問題の決定不能性証明、第二次世界大戦中のエニグマ暗号解読へのbombe開発、初期電子計算機（ACE、Manchester Mark I）の設計への寄与、人工知能の基礎としてのチューリングテスト提唱、さらに反応拡散モデルによる形態形成理論（チューリング・パターン）の構築など、情報処理と数理生物学の両分野に革命的な業績を残した。",
+      "text": "計算可能性理論の確立とチューリングマシンの提案による計算モデルの形式化、第二次世界大戦中のエニグマ暗号解読へのbombe開発、初期電子計算機（ACE、Manchester Mark I）の設計への寄与、人工知能の基礎としてのチューリングテスト提唱、さらに反応拡散モデルによる形態形成理論（チューリング・パターン）の構築など、情報処理と数理生物学の両分野に革命的な業績を残した。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0"
     },
     "trivia": "1948年ロンドンオリンピックのマラソン選考に参加し、2時間46分3秒のベストタイムで5位となった実績がある。",
@@ -202,10 +202,10 @@
       }
     ],
     "contribution": {
-      "text": "Introduced logistic regression, the proportional hazards model, Cox process, and Box–Cox transformation; made foundational contributions to survival analysis, stochastic processes and design of experiments.",
+      "text": "ロジスティック回帰、比例ハザードモデル、ボックス–コックス変換などを開発し、生存分析、確率過程、実験計画法に基礎的な貢献をしました。",
       "source": "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
     },
-    "trivia": "Collaborated with George Box (Box–Cox transformation); had a distant cousin, aeronautical engineer Harold Roxbee Cox.",
+    "trivia": "STATAの掲示板には、coxと書くと、Coxと必ず訂正するNick Coxがいる。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
@@ -300,7 +300,7 @@
       }
     ],
     "contribution": {
-      "text": "近代数学のほとんどの分野に重大な影響を与えた。特に数論における合同算術の体系化と平方剰余の相互法則の証明、代数学の基本定理の証明、最小二乗法と正規分布の理論、複素解析や楕円関数論の先駆的研究、ガウス曲率と微分幾何学の創始、地図投影法や測地学への応用、電磁気学における法則の発見など、多岐にわたる業績を残した。",
+      "text": "近代数学のほとんどの分野に重大な影響を与えた。最小二乗法と正規分布の理論は現代の疫学モデリングの基礎になっている。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%82%AC%E3%82%A6%E3%82%B9"
     },
     "trivia": "7歳のとき、1から100までの和を数秒で計算して5050と答えた逸話があり、等差級数の和の公式を独自に導出したとされる。",
@@ -409,7 +409,7 @@
       "text": "改良された統計手法の普及、医療研究の信頼性と報告基準の向上を主導。EQUATORネットワークやCONSORTガイドラインの共同設立者として、研究の透明性と正確性を世界的に推進。またBland–Altmanプロットなどの手法を開発し、臨床測定法の一致性評価を革新。",
       "source": "https://en.wikipedia.org/wiki/Doug_Altman"
     },
-    "trivia": "『Practical Statistics for Medical Research』はハードカバー50,000部以上を販売。1986年のLancet論文はNature/ Web of Science Top 100にランクインし、40,000回以上引用された。",
+    "trivia": "『Practical Statistics for Medical Research』はハードカバー50,000部以上を販売。1986年のBland–Altmanプロット論文はNature/ Web of Science Top 100にランクインし、40,000回以上引用された。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Doug_Altman"
@@ -430,7 +430,7 @@
     "avatar": "avatars\\ピーター・アーミテージ2025.png",
     "highlights": [],
     "contribution": {
-      "text": "- Cochran–Armitage検定法（トレンド検定法）の共同考案者として知られる\n- 1947年から1961年までMedical Research Councilの統計家として勤務\n- 1961年から1976年までLondon School of Hygiene & Tropical Medicine (LSHTM) 医学統計学科教授・学科長を務め、1968/69年に医学統計学修士課程を創設\n- Oxford大学Applied Statistics教授（Biomathematics改称）として活躍し、1990年の正式退職後も『Encyclopedia of Biostatistics』の編集責任者として800人以上の寄稿者・1,200本の記事を統括\n- 臨床試験のデータモニタリング委員会（特にエイズ臨床試験のモニタリング）分野で先駆的貢献\n- 1972年にInternational Biometric Society、1982～84年にRoyal Statistical Society、1990～91年にInternational Society for Clinical Biostatisticsの各会長を歴任",
+      "text": "Cochran–Armitage検定法（トレンド検定法）の共同考案者として知られる。臨床試験のデータモニタリング委員会（特にエイズ臨床試験のモニタリング）分野で先駆的貢献。",
       "source": "https://www.lshtm.ac.uk/newsevents/blogs/2024/obituary-peter-armitage"
     },
     "trivia": "Peter ArmitageはRoyal Statistical SocietyのGuy Medalをbronze（1962年）、silver（1978年）、gold（1990年）と全て受賞した数少ない統計学者の一人である。",
@@ -584,7 +584,7 @@
       }
     ],
     "contribution": {
-      "text": "Pioneered the field of evidence-based medicine by founding the first department of clinical epidemiology at McMaster University and the Oxford Centre for Evidence-Based Medicine; developed methods to detect and reduce bias and design randomized clinical trials; popularized critical appraisal and team-based clinical research.",
+      "text": "McMaster大学で最初の臨床疫学部門を設立し、オックスフォード大学にCentre for Evidence-Based Medicineを創設することで、エビデンスに基づく医療の分野を開拓した。",
       "source": "https://en.wikipedia.org/wiki/David_Sackett"
     },
     "trivia": "有名な言葉：「医学校で学ぶことの半分は完全に間違っている。」",
@@ -719,7 +719,7 @@
       "text": "ルービン因果モデルの提案と観察データに基づく因果推論手法および欠測データ処理方法の開発",
       "source": "https://en.wikipedia.org/wiki/Donald_Rubin"
     },
-    "trivia": "法律家のユダヤ人家庭に生まれ、物理学者ジョン・ホイーラーの指導を受けた後、心理学から統計学へ転向した",
+    "trivia": "物理学者ジョン・ホイーラーの指導を受けた後、心理学から統計学へ転向した",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Donald_Rubin"
@@ -762,7 +762,7 @@
       "text": "ポリオの臨床疫学を確立し、ウイルスの伝播経路（患者の排泄物や下水中）を実証することで予防と治療法の発展に寄与",
       "source": "https://en.wikipedia.org/wiki/John_R._Paul"
     },
-    "trivia": "1958年にポリオ殿堂に殿堂入りし、1971年に発表した著書で早期ウイルス曝露による免疫獲得仮説を提唱",
+    "trivia": "1958年にポリオ殿堂に殿堂入り",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/John_R._Paul"
@@ -793,10 +793,10 @@
       }
     ],
     "contribution": {
-      "text": "Introduced the term \"risk factors\" into cardiology and pioneered preventive cardiology through studies on the influence of diet, salt, and other nutrients on hypertension and coronary heart disease.",
+      "text": "心臓病学に「リスク因子」という用語を導入し、食事、塩分、その他の栄養素が高血圧や冠状動脈疾患に与える影響に関する研究を通じて、予防心臓病学の先駆者となった。",
       "source": "https://en.wikipedia.org/wiki/Jeremiah_Stamler"
     },
-    "trivia": "In 1965 he was subpoenaed by the House Committee on Un-American Activities and later cited for contempt of Congress after refusing to testify.",
+    "trivia": "103歳まで長生きした。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Jeremiah_Stamler"
@@ -830,7 +830,7 @@
       }
     ],
     "contribution": {
-      "text": "Egon Pearson とともに現代の推計統計学の中心的理論（仮説検定や信頼区間など）を確立し、統計学を独立した学問としてアメリカで確立・発展させた。",
+      "text": "Egon Pearson とともに現代の推計統計学の中心的理論（仮説検定や信頼区間など）を確立し、統計学を独立した学問として確立・発展させた。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%A7%E3%82%B8%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%9E%E3%83%B3"
     },
     "trivia": "父は元来ユダヤ系の法律家だったがカトリック信者。ロシア革命後、一時敵国人として拘束されたが研究を続けた。",
@@ -924,10 +924,10 @@
       }
     ],
     "contribution": {
-      "text": "He traced the source of the 1854 London cholera outbreak to a contaminated water pump, founding modern epidemiology and supporting germ theory; he also pioneered clinical use and dosage of anaesthetics such as ether and chloroform.",
+      "text": "1854年のロンドン・コレラの流行源を汚染された水ポンプに突き止め、現代疫学の基礎を築いた。また、エーテルやクロロホルムなどの麻酔薬の臨床使用と投与量を研究した麻酔科の先駆者でもある。",
       "source": "https://en.wikipedia.org/wiki/John_Snow"
     },
-    "trivia": "He was invited to administer chloroform to Queen Victoria during the births of Prince Leopold in 1853 and Princess Beatrice in 1857.",
+    "trivia": "今でもロンドンのポンプのあった場所には、John Snowというパブがある。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Snow"
@@ -1018,7 +1018,7 @@
       }
     ],
     "contribution": {
-      "text": "近代看護教育の基礎を築き、看護統計学および医療統計学を創始した。また、クリミア戦争時の死亡原因を可視化する統計グラフを開発し、公衆衛生改革に大きく寄与した。",
+      "text": "近代看護教育の基礎を築き、看護統計学を創始した。クリミア戦争時の死亡原因を可視化する統計グラフを開発し、公衆衛生改革に大きく寄与した。",
       "source": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB"
     },
     "trivia": "国際看護師の日（5月12日）は彼女の誕生日である。",
@@ -1064,10 +1064,10 @@
       }
     ],
     "contribution": {
-      "text": "古典力学（ニュートン力学）の創始、万有引力の法則の提唱、微積分法の確立、光学への大きな貢献",
+      "text": "古典力学（ニュートン力学）の創始、万有引力の法則の提唱、微積分法の確立。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
     },
-    "trivia": "国際単位系（SI）の力の単位「ニュートン」は彼の名前に由来する",
+    "trivia": "賢者の石の探求を始めとした黒魔術の研究者としても有名。ニュートンの黒魔術研究ノートを収集したのが経済学者のケインズ。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
@@ -1126,7 +1126,7 @@
       "text": "提唱したランダム化比較試験（RCT）と証拠に基づく医療の概念により、現代の臨床疫学とエビデンスに基づく医療の父と呼ばれる。",
       "source": "https://en.wikipedia.org/wiki/Archie_Cochrane"
     },
-    "trivia": "アーチー・コクラン・アーカイブは、ペナースのランダフ病院（Archie Cochrane Library）に所蔵されている。",
+    "trivia": "Archieは長くコクラン共同計画の情報管理ツールであったが、2025年4月にその役割を終えた。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Archie_Cochrane"
@@ -1183,10 +1183,10 @@
       }
     ],
     "contribution": {
-      "text": "Pioneering and leadership in evidence-based medicine, including introducing the term in 1991 and leading the GRADE working group for transparent grading of evidence and recommendations; extensive contributions to randomized trials, meta-analysis, clinical practice guidelines, and quality of life research.",
+      "text": "1991年に「エビデンスに基づく医療（Evidence-based Medicine）」という用語を導入し、透明性のある証拠とガイドラインのグレーディングのためのGRADEワーキンググループを主導するなど、エビデンスに基づく医療の分野における先駆的リーダーシップを発揮している。",
       "source": "https://en.wikipedia.org/wiki/Gordon_Guyatt"
     },
-    "trivia": "His mother was a Czech Jew and Auschwitz and Belsen concentration camp survivor.",
+    "trivia": "Core GRADEはGRADEワーキンググループとは独立して、筆者らの経験則から作られている。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Gordon_Guyatt"
@@ -1237,7 +1237,7 @@
       "text": "日本海軍における脚気対策として兵食の栄養改善を実施し、脚気発生率と死亡率を劇的に低下させた。またこれを基に世界でも早期の疫学的実験航海を行い“日本の疫学の父”とも呼ばれる。さらに、臨床第一の英国式医療を広め、東京慈恵会医科大学や国内初の看護学校を創設し、日本の近代医学・看護教育の基礎を築いた。",
       "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%85%BC%E5%AF%9B"
     },
-    "trivia": "故郷宮崎では“ビタミンの父”と称され、兵食改革の一環で海軍カレー導入にも関与。南極大陸の“高木岬”は彼の名に因んで命名された。",
+    "trivia": "南極大陸の“高木岬”は彼の名に因んで命名された。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%9C%A8%E5%85%BC%E5%AF%9B"
@@ -1261,10 +1261,10 @@
     "avatar": "avatars\\ケネス・ロスマン2025.png",
     "highlights": [],
     "contribution": {
-      "text": "Pioneering methodological work in epidemiologic research, including research methodology, and contributions to understanding teratogenic effects of vitamin A, health effects of mobile phone use, and environmental causes of cancer.",
+      "text": "疫学研究における方法論的な先駆的研究を行い、方法論の発展に貢献。Modern Epidemiologyはあまりにも有名。",
       "source": "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
     },
-    "trivia": "In 2002, the journal Epidemiology renamed its annual prize the 'Kenneth Rothman Epidemiology Prize' in his honor.",
+    "trivia": "有名な言葉：測定は決して正確ではありません (Measurement is never exact)",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
@@ -1311,10 +1311,10 @@
       }
     ],
     "contribution": {
-      "text": "By conducting one of the first controlled clinical trials, he demonstrated that citrus fruits cured scurvy, pioneered naval hygiene practices including ventilation, cleanliness, and fumigation, and proposed methods for fresh water distillation, advancing preventive medicine and improving nutrition among sailors.",
+      "text": "最初の対照臨床試験の一つを実施し、柑橘類が壊血病を治すことを実証した。",
       "source": "https://en.wikipedia.org/wiki/James_Lind"
     },
-    "trivia": "名前はロンドン大学衛生熱帯医学学校のフリーズに刻まれ、ジェームス・リンド・アライアンスにその名を残している。",
+    "trivia": "イギリス人の船乗りは壊血病予防にライムをよく食べるようになり、「ライミー (limy)」と呼ばれるようになった",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/James_Lind"
@@ -1356,7 +1356,7 @@
       "text": "高速フーリエ変換（FFT）アルゴリズムの共同開発、探索的データ解析（EDA）の提唱、および統計用語の造語・普及。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A5%E3%83%BC%E3%82%AD%E3%83%BC"
     },
-    "trivia": "“bit”という用語を造語した。",
+    "trivia": "データの用量に使う“bit”という用語を造語した。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%86%E3%83%A5%E3%83%BC%E3%82%AD%E3%83%BC"
@@ -1395,7 +1395,7 @@
       "text": "赤池情報量規準 (AIC) を1970年代に確立し、モデル選択の標準的手法として理論的発展をもたらした。",
       "source": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
     },
-    "trivia": "東京都立川市の統計数理研究所敷地内に建設された長期滞在型施設「Akaike Guest House」は彼にちなむ。",
+    "trivia": "情報量基準として、AIC, BIC, DICはあるが、CICはない",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
@@ -1447,10 +1447,10 @@
       }
     ],
     "contribution": {
-      "text": "現代の推測統計学を確立し、分散分析、最尤法、フィッシャー情報量などの統計手法を開発。また『自然選択の遺伝学的理論』によりネオダーウィニズム（総合説）を成立させ、集団遺伝学を創始した。",
+      "text": "現代の推測統計学を確立し、分散分析、最尤法、フィッシャー情報量、ランダム化比較試験などの統計手法を開発。",
       "source": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC"
     },
-    "trivia": "8人の子をもうけ、自らの家庭生活にも優生学的考察を行った。",
+    "trivia": "相関と因果は違う、と喫煙の害に関してランダム化比較試験が存在しないことを理由に否定的であった。なお、ヘビースモーカーである。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC"
@@ -1487,10 +1487,10 @@
       }
     ],
     "contribution": {
-      "text": "メタアナリシスにおけるバイアス検出手法（特にファンネルプロットを用いたエッガー検定）を確立し、臨床疫学と公衆衛生の研究方法に重要な影響を与えた。",
+      "text": "メタアナリシスにおけるバイアス検出手法（特にファンネルプロットを用いたエッガー検定）を確立した。",
       "source": "https://en.wikipedia.org/wiki/Matthias_Egger"
     },
-    "trivia": "2017年から2024年までスイス国立科学財団（SNSF）研究評議会の会長を務め、2020年以降はGESDA（ジュネーブ科学・外交アンティシペーター）の理事を務めている。",
+    "trivia": "ホメオパシーはプラセボと同じ、という結論を導くシステマティック・レビューを実施した",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Matthias_Egger"
@@ -1537,10 +1537,10 @@
       }
     ],
     "contribution": {
-      "text": "Robins advanced statistical methods for drawing causal inferences from complex observational studies and randomized trials with time‐dependent treatments. He introduced the G‐formula, G‐Estimation of Structural Nested Models and Marginal Structural Models, and pioneered dynamic treatment regimes, doubly robust estimators and higher‐order influence functions, transforming modern causal inference.",
+      "text": "複雑な観察研究や時間依存治療を伴うランダム化試験から因果推論を導き出すための統計的手法を発展させた。G-formula、周辺構造モデルなどを導入し、動的治療レジメン、二重ロバスト推定量、高次影響関数の先駆者となり、現代の因果推論を変革した。",
       "source": "https://en.wikipedia.org/wiki/James_Robins"
     },
-    "trivia": "Robins practiced occupational medicine and attended Yale School of Public Health courses before focusing on biostatistics. He was elected to Phi Beta Kappa at Harvard but did not graduate and is an ISI highly cited researcher.",
+    "trivia": "ハーバード大学で学業成績が卓越していることでファイ・ベータ・カッパに選出されたが、卒業しなかった。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/James_Robins"
@@ -1562,7 +1562,7 @@
       "text": "外相在任中に労働者の健康と長寿を経済的価値の観点から理解し、道徳的自制によって健康問題の予防を説いた。また、『日本の精神衛生運動』に関与し、日本の公衆衛生学的精神医学の発展に寄与した。",
       "source": "https://iuk-repo.repo.nii.ac.jp/record/864/files/Thesis_Chuman_Mitsuko_B-fuku1_2017.pdf, http://jshm.or.jp/journal/56-2/56-2_269.pdf"
     },
-    "trivia": "外相在任中の10月18日に襲撃を受けた。日本図案会の総裁（初代）に就任した。",
+    "trivia": "日本図案会の総裁（初代）に就任した。",
     "triviaSource": "https://iuk-repo.repo.nii.ac.jp/record/864/files/Thesis_Chuman_Mitsuko_B-fuku1_2017.pdf, https://www.kyobi.ac.jp/img/pdf/kyobikiyou2022.pdf",
     "sources": [
       "http://www.stat.go.jp/library/meiji150/ijin/index.html"
@@ -1584,7 +1584,7 @@
       "text": "杉 亨二は、明治9年2月に政表課員をはじめとする有志10余名を集めて統計学研究のため「表記学社」を設立。同社は後に明治11年に「スタチスチツク社」、明治25年に「統計学社」と改称され、日本における統計学の普及・発展に大きく寄与した。",
       "source": "https://www.stat.go.jp/museum/shiryo/sugi.html"
     },
-    "trivia": "",
+    "trivia": "洋書の翻訳に従事している際にバイエルン王国（現在のドイツ・バイエルン州）における識字率についての記述に触れたのが統計と関わるきっかけになった",
     "triviaSource": "",
     "sources": [
       "http://www.stat.go.jp/library/meiji150/ijin/ijin03.html"
@@ -1603,10 +1603,10 @@
     "avatar": "avatars\\森鴎外2025.png",
     "highlights": [],
     "contribution": {
-      "text": "森鴎外は明治期の陸軍軍医として軍事衛生学を専門とし、とくに軍医衛生学における衛生統計に強い関心を寄せた。また、明治陸軍で多発した脚気惨害問題（脚気論争）に関与し、その研究・防止対策に取り組んだ。",
+      "text": "森鴎外は明治期の陸軍軍医として軍事衛生学を専門とし、とくに軍医衛生学における衛生統計に強い関心を寄せた。",
       "source": "https://www.stat.go.jp/museum/toukei150/ijin/ijin04.html\nhttps://note.com/onoken_nobelles/n/n24360c85657e"
     },
-    "trivia": "医師としての公的活動のかたわら、文豪としても活躍し、『北遊記』や『半日』などの文学作品を執筆した。",
+    "trivia": "明治陸軍で多発した脚気惨害問題（脚気論争）に関与し、その研究・防止対策に取り組んだが、結果は。",
     "triviaSource": "http://jshm.or.jp/journal/19-4/19-4.pdf",
     "sources": [
       "http://www.stat.go.jp/library/meiji150/ijin/ijin04.html"

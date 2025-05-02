@@ -600,9 +600,87 @@
                 saveBtn.disabled = true;
             }
             
+            // 現在の編集内容を保存する関数（変更がある場合のみ）
+            function saveCurrentEdits() {
+                if (filteredScholars.length === 0) return false;
+                
+                const scholar = filteredScholars[currentIndex];
+                const originalScholar = scholars.find(s => s.id === scholar.id);
+                
+                // 変更があるかチェック
+                const contributionChanged = contributionEdit.value !== (scholar.contribution?.text || '');
+                const triviaChanged = triviaEdit.value !== (scholar.trivia || '');
+                
+                // 変更がある場合のみ保存
+                if (contributionChanged || triviaChanged) {
+                    // 貢献情報の更新
+                    if (!originalScholar.contribution) {
+                        originalScholar.contribution = {};
+                    }
+                    originalScholar.contribution.text = contributionEdit.value;
+                    
+                    // 豆知識の更新
+                    originalScholar.trivia = triviaEdit.value;
+                    
+                    // 編集されたデータを記録
+                    editedScholars[scholar.id] = true;
+                    
+                    // 表示の更新
+                    Object.assign(scholar, originalScholar);
+                    renderCard(scholar);
+                    updateJsonDisplay(scholar);
+                    checkIssues(scholar);
+                    
+                    // ボタンの状態を更新
+                    saveBtn.disabled = false;
+                    
+                    return true; // 変更があったことを返す
+                }
+                
+                return false; // 変更がなかったことを返す
+            }
+            
+            // 小さな通知を表示する関数
+            function showNotification(message) {
+                const notification = document.createElement('div');
+                notification.textContent = message;
+                notification.style.position = 'fixed';
+                notification.style.bottom = '20px';
+                notification.style.right = '20px';
+                notification.style.backgroundColor = '#4caf50';
+                notification.style.color = 'white';
+                notification.style.padding = '10px 20px';
+                notification.style.borderRadius = '4px';
+                notification.style.zIndex = '1000';
+                notification.style.opacity = '0';
+                notification.style.transition = 'opacity 0.3s';
+                
+                document.body.appendChild(notification);
+                
+                // フェードイン
+                setTimeout(() => {
+                    notification.style.opacity = '1';
+                }, 10);
+                
+                // 数秒後に消える
+                setTimeout(() => {
+                    notification.style.opacity = '0';
+                    setTimeout(() => {
+                        document.body.removeChild(notification);
+                    }, 300);
+                }, 3000);
+            }
+            
             // イベントリスナーの設定
             prevBtn.addEventListener('click', () => {
                 if (currentIndex > 0) {
+                    // 現在の編集内容を保存
+                    const changesMade = saveCurrentEdits();
+                    if (changesMade) {
+                        // 変更があった場合に通知を表示
+                        showNotification('変更が自動保存されました');
+                    }
+                    
                     currentIndex--;
                     showCurrentScholar();
                 }
@@ -610,17 +688,38 @@
             
             nextBtn.addEventListener('click', () => {
                 if (currentIndex < filteredScholars.length - 1) {
+                    // 現在の編集内容を保存
+                    const changesMade = saveCurrentEdits();
+                    if (changesMade) {
+                        // 変更があった場合に通知を表示
+                        showNotification('変更が自動保存されました');
+                    }
+                    
                     currentIndex++;
                     showCurrentScholar();
                 }
             });
             
             filterSelect.addEventListener('change', () => {
+                // フィルター変更前に現在の編集内容を保存
+                const changesMade = saveCurrentEdits();
+                if (changesMade) {
+                    showNotification('変更が自動保存されました');
+                }
+                
                 currentIndex = 0;
                 applyFilter();
             });
             
-            reloadBtn.addEventListener('click', loadScholars);
+            reloadBtn.addEventListener('click', () => {
+                // データ再読み込み前に現在の編集内容を保存
+                const changesMade = saveCurrentEdits();
+                if (changesMade) {
+                    showNotification('変更が自動保存されました');
+                }
+                
+                loadScholars();
+            });
             
             applyEditBtn.addEventListener('click', applyEdit);
             
