@@ -87,10 +87,10 @@
       }
     ],
     "contribution": {
-      "text": "19世紀末からの研究により現代的数理統計学の基礎を築いた",
+      "text": "19世紀末からの研究により現代的数理統計学の基礎を築いた。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
     },
-    "trivia": "ヒストグラムという語を創案した",
+    "trivia": "ヒストグラムという語を創案した。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%94%E3%82%A2%E3%82%BD%E3%83%B3"
@@ -205,7 +205,7 @@
       "text": "ロジスティック回帰、比例ハザードモデル、ボックス–コックス変換などを開発し、生存分析、確率過程、実験計画法に基礎的な貢献をしました。",
       "source": "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
     },
-    "trivia": "STATAの掲示板には、coxと書くと、Coxと必ず訂正するNick Coxがいる。",
+    "trivia": "STATAの掲示板には、coxと書くと、どこからとも現れてCoxと訂正するNick Coxがいる。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/David_Cox_(statistician)"
@@ -242,10 +242,10 @@
       }
     ],
     "contribution": {
-      "text": "古典力学や天体力学における微分方程式の体系化、ラプラス方程式・ラプラス作用素の導入、ラプラス変換の基盤構築、ベイズ的確率論の体系化、メートル原器定義への寄与など",
+      "text": "古典力学や天体力学における微分方程式の体系化、ラプラス方程式・ラプラス作用素の導入、ラプラス変換の基盤構築、ベイズ的確率論の体系化、メートル原器定義への寄与など。",
       "source": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%EF%BC%9D%E3%82%B7%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%97%E3%83%A9%E3%82%B9"
     },
-    "trivia": "ナポレオン統領政府で短期間ながら内務大臣を務めた経験がある",
+    "trivia": "ポケモンのラプラスは高い知能を持つという設定から、彼にちなんで命名された。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%EF%BC%9D%E3%82%B7%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%A9%E3%83%97%E3%83%A9%E3%82%B9"
@@ -762,7 +762,7 @@
       "text": "ポリオの臨床疫学を確立し、ウイルスの伝播経路（患者の排泄物や下水中）を実証することで予防と治療法の発展に寄与",
       "source": "https://en.wikipedia.org/wiki/John_R._Paul"
     },
-    "trivia": "1958年にポリオ殿堂に殿堂入り",
+    "trivia": "1958年にポリオ殿堂に殿堂入り。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/John_R._Paul"
@@ -927,7 +927,7 @@
       "text": "1854年のロンドン・コレラの流行源を汚染された水ポンプに突き止め、現代疫学の基礎を築いた。また、エーテルやクロロホルムなどの麻酔薬の臨床使用と投与量を研究した麻酔科の先駆者でもある。",
       "source": "https://en.wikipedia.org/wiki/John_Snow"
     },
-    "trivia": "今でもロンドンのポンプのあった場所には、John Snowというパブがある。",
+    "trivia": "今でもロンドンのポンプのあった場所には、John Snowというパブがある。Google mapの口コミは今ひとつ。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/John_Snow"
@@ -1264,7 +1264,7 @@
       "text": "疫学研究における方法論的な先駆的研究を行い、方法論の発展に貢献。Modern Epidemiologyはあまりにも有名。",
       "source": "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
     },
-    "trivia": "有名な言葉：測定は決して正確ではありません (Measurement is never exact)",
+    "trivia": "有名な言葉：測定は決して正確ではない (Measurement is never exact)",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/Kenneth_Rothman_(epidemiologist)"
@@ -1314,7 +1314,7 @@
       "text": "最初の対照臨床試験の一つを実施し、柑橘類が壊血病を治すことを実証した。",
       "source": "https://en.wikipedia.org/wiki/James_Lind"
     },
-    "trivia": "イギリス人の船乗りは壊血病予防にライムをよく食べるようになり、「ライミー (limy)」と呼ばれるようになった",
+    "trivia": "イギリス人の船乗りは壊血病予防にライムをよく食べるようになり、「ライミー (limy)」と呼ばれるようになった。",
     "triviaSource": "",
     "sources": [
       "https://en.wikipedia.org/wiki/James_Lind"
@@ -1395,7 +1395,7 @@
       "text": "赤池情報量規準 (AIC) を1970年代に確立し、モデル選択の標準的手法として理論的発展をもたらした。",
       "source": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
     },
-    "trivia": "情報量基準として、AIC, BIC, DICはあるが、CICはない",
+    "trivia": "情報量規準として、AIC, BIC, DICはあるが、CICはない。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E8%B5%A4%E6%B1%A0%E5%BC%98%E6%AC%A1"
@@ -1606,7 +1606,7 @@
       "text": "森鴎外は明治期の陸軍軍医として軍事衛生学を専門とし、とくに軍医衛生学における衛生統計に強い関心を寄せた。",
       "source": "https://www.stat.go.jp/museum/toukei150/ijin/ijin04.html\nhttps://note.com/onoken_nobelles/n/n24360c85657e"
     },
-    "trivia": "明治陸軍で多発した脚気惨害問題（脚気論争）に関与し、その研究・防止対策に取り組んだが、結果は。",
+    "trivia": "明治陸軍で多発した脚気惨害問題（脚気論争）に関与した。結果、日清、日露戦争における陸軍の死亡者は、戦死者よりも脚気死亡者の方が圧倒的に多数となり、海軍との差が際立つものとなった。",
     "triviaSource": "http://jshm.or.jp/journal/19-4/19-4.pdf",
     "sources": [
       "http://www.stat.go.jp/library/meiji150/ijin/ijin04.html"
@@ -1625,10 +1625,10 @@
     "avatar": "avatars\\原敬2025.png",
     "highlights": [],
     "contribution": {
-      "text": "",
+      "text": "パリ留学中に知った人口センサスを元に、後に総理大臣となってから、統計の整備や国勢調査の実施に向けた取組みを行った。",
       "source": "http://www.stat.go.jp/library/meiji150/ijin/ijin05.html"
     },
-    "trivia": "",
+    "trivia": "岩手県の名物である「わんこそば」の発祥は原に由来するものであるという説があるが、人をもてなした、自分で食べたときのセリフなど、関連するエピソードが複数ある。",
     "triviaSource": "",
     "sources": [
       "http://www.stat.go.jp/library/meiji150/ijin/ijin05.html"
@@ -1664,7 +1664,7 @@
       }
     ],
     "contribution": {
-      "text": "犯罪率や結婚率、自殺率など社会現象の統計的法則を研究し、『平均人』概念を提唱して社会物理学を創始。さらにボディマス指数を開発し、公衆医学にも大きな貢献を果たした。",
+      "text": "犯罪率や結婚率、自殺率など社会現象の統計的法則を研究し、『平均人』概念を提唱して社会物理学を創始。さらにBMIを開発し、公衆医学にも大きな貢献を果たした。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%82%B1%E3%83%88%E3%83%AC%E3%83%BC"
     },
     "trivia": "誕生日と同じ2月17日に逝去し、ちょうど77歳で生涯を閉じた。",
@@ -1719,10 +1719,10 @@
       }
     ],
     "contribution": {
-      "text": "労働価値説を初めて唱え、経験的・統計的手法を経済学に導入。政 候算術の先駆者として国富や余剰の数量的分析を行い、古典派経済学と統計学の基礎を築いた。公共事業の経済的・社会的効果を示し、国家経済学の先駆的研究を展開した。",
+      "text": "労働価値説を初めて唱え、経験的・統計的手法を経済学に導入。政治算術の先駆者として国富や余剰の数量的分析を行い、古典派経済学と統計学の基礎を築いた。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%9A%E3%83%86%E3%82%A3"
     },
-    "trivia": "ランズダウン侯爵の爵位名は彼が指揮したアイルランドの土地測量（Down Survey）に由来する。また、双底船（ダブルボトム）設計で海軍の注目を集めたが、初航海後に失踪するなど話題となった。",
+    "trivia": "国勢調査がなかった時代に、死亡者数の統計から都市の人口を推定した。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%83%9A%E3%83%86%E3%82%A3"
@@ -1868,7 +1868,7 @@
       "text": "三次方程式および四次方程式の解法（カルダノの公式）を公表し、数学史上初めて虚数の概念を導入。賭博に関する研究で確率論の基礎を提示。",
       "source": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%A9%E3%83%A2%E3%83%BB%E3%82%AB%E3%83%AB%E3%83%80%E3%83%BC%E3%83%8E"
     },
-    "trivia": "自在継手（カルダンジョイント）の考案者であり、占星術師・賭博師としても活動。自身の死期を占星術で予言し、その日に自殺したと伝えられる。",
+    "trivia": "占星術師・賭博師としても活動。自身の死期を占星術で予言し、その日に自殺したと伝えられる。",
     "triviaSource": "",
     "sources": [
       "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%A9%E3%83%A2%E3%83%BB%E3%82%AB%E3%83%AB%E3%83%80%E3%83%BC%E3%83%8E"
