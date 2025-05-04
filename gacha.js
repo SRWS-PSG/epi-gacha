@@ -69,26 +69,21 @@ document.addEventListener('DOMContentLoaded', () => {
         <h3>${scholar.name.ja}</h3>
         <div>${scholar.name.en}</div>
         <div class="card-affiliation">${scholar.affiliation}</div>
-        <div class="card-tags">
-          ${scholar.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-        </div>
+        
+        <!-- タグを非表示に変更 -->
         
         <!-- 貢献セクション -->
         <div class="contribution-section">
           <h4>貢献</h4>
           <div class="contribution-text">${scholar.contribution.text}</div>
-          <div class="source">
-            出典: <a href="${scholar.contribution.source}" target="_blank">詳細</a>
-          </div>
+          <!-- 出典の詳細リンクを非表示に変更 -->
         </div>
         
         <!-- 豆知識セクション -->
         <div class="trivia-section">
           <h4>豆知識</h4>
           <div class="trivia-text">${scholar.trivia}</div>
-          <div class="source">
-            出典: <a href="${scholar.triviaSource}" target="_blank">詳細</a>
-          </div>
+          <!-- 出典の詳細リンクを非表示に変更 -->
         </div>
       </div>
     `;
