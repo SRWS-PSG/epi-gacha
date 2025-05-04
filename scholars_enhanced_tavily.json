@@ -2501,19 +2501,19 @@
   {
     "id": "ユリアン・ヒギンズ2025",
     "name": {
-      "en": "",
+      "en": "Julian Higgins",
       "ja": "ユリアン・ヒギンズ"
     },
     "affiliation": "",
     "tags": [],
-    "rarity": "SSR",
+    "rarity": "N",
     "avatar": "avatars\\ユリアン・ヒギンズ2025.png",
     "highlights": [],
     "contribution": {
-      "text": "",
+      "text": "イギリスの生物統計学者、メタ・アナリシスと系統的レビューの専門家として知られる。無作為化試験でのバイアスリスク評価ツール「RoB 2」の開発に携わり、2015年以降ISI高被引用研究者に選ばれている。",
       "source": "https://scholar.google.co.jp/citations?user=EYQIr1sAAAAJ"
     },
-    "trivia": "",
+    "trivia": "コクラン共同計画に積極的に貢献し、「系統的レビューのためのコクランハンドブック」の共同編集者を務める。",
     "triviaSource": "",
     "sources": [
       "https://scholar.google.co.jp/citations?user=EYQIr1sAAAAJ"
