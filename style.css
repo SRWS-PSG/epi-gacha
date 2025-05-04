@@ -24,9 +24,15 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 2rem 1rem;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
 }
 
 header {
@@ -96,14 +102,27 @@ select {
 }
 
 .result-area {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   justify-content: center;
 }
 
+@media (min-width: 768px) {
+  .result-area {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+  }
+}
+
+@media (min-width: 1200px) {
+  .result-area {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  }
+}
+
 .card {
-  width: 300px;
+  width: 100%;
+  max-width: 400px;
   border-radius: 12px;
   overflow: hidden;
   background: var(--card-bg);
@@ -111,6 +130,9 @@ select {
   transition: all 0.3s;
   position: relative;
   border: 5px solid transparent;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* レア度に応じたフレーム */
@@ -146,6 +168,8 @@ select {
 
 .card-content {
   padding: 1.5rem;
+  overflow-y: auto;
+  flex-grow: 1;
 }
 
 .card h3 {

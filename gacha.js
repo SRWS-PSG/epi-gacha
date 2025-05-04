@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   async function loadScholars() {
     try {
-      const response = await fetch('scholars.json');
+      const response = await fetch('scholars_enhanced_tavily.json');
       scholars = await response.json();
       console.log(`${scholars.length}人の学者データを読み込みました`);
     } catch (error) {
@@ -125,14 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
         playSREffect();
       }
     }
-  });
-  
-  // フィルター適用
-  document.getElementById('apply-filter').addEventListener('click', () => {
-    activeFilter = document.getElementById('filter-type').value;
-    console.log(`フィルター適用: ${activeFilter}`);
-    document.getElementById('gacha-result').innerHTML = '';
-    drawnScholars = []; // フィルター変更時はリセット
   });
   
   // SSR演出
